@@ -1,0 +1,1101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>MakepillsMalari</defName>
+		<label>Сделать таблетки от малярии</label>
+		<description>Сделать таблетки от малярии.3 дозы.</description>
+		<jobString>Делает таблетки от малярии</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Chemlab_Medicine_Drink</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>1500</workAmount>
+		<recipeUsers>
+			<li>meditable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicalDrink</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			   <li>MedicalDrink</li>
+				<li>HemogenPack</li>
+				<li>MedicineHerbal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<pillsMalari>3</pillsMalari>
+		</products>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<workSkill>Medicine</workSkill>
+	</RecipeDef>
+
+<RecipeDef>
+		<defName>MakepillsFlu</defName>
+		<label>Сделать таблетки от гриппа</label>
+		<description>Сделать таблетки от гриппа.3 дозы.</description>
+		<jobString>Делает  таблетки от гриппа</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Chemlab_Medicine_Drink</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>1500</workAmount>
+		<recipeUsers>
+			<li>meditable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicalDrink</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			   <li>MedicalDrink</li>
+				<li>HemogenPack</li>
+				<li>MedicineHerbal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<pillsFlu>3</pillsFlu>
+		</products>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<workSkill>Medicine</workSkill>
+		
+	</RecipeDef>
+
+
+<RecipeDef>
+		<defName>MakepillsPlague</defName>
+		<label>Сделать таблетки от чумы</label>
+		<description>Сделать таблетки от чумы.3 дозы.</description>
+		<jobString>Делает таблетки</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Chemlab_Medicine_Drink</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>1500</workAmount>
+		<recipeUsers>
+			<li>meditable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicalDrink</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			   <li>MedicalDrink</li>
+				<li>HemogenPack</li>
+				<li>MedicineHerbal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<pillsPlague>3</pillsPlague>
+		</products>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<workSkill>Medicine</workSkill>
+		
+	</RecipeDef>
+
+
+<RecipeDef>
+		<defName>MakepillsSleepingSickness</defName>
+		<label>Сделать таблетки от сонной болезни</label>
+		<description>Сделать таблетки от сонной болезни.3 дозы.</description>
+		<jobString>Делает таблетки</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Chemlab_Medicine_Drink</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>1500</workAmount>
+		<recipeUsers>
+			<li>meditable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicalDrink</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			   <li>MedicalDrink</li>
+				<li>HemogenPack</li>
+				<li>MedicineHerbal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<pillsSleepingSickness>3</pillsSleepingSickness>
+		</products>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<workSkill>Medicine</workSkill>
+		
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>MakepillsCoronavirus</defName>
+		<label>Сделать таблетки от Короновируса</label>
+		<description>Сделать таблетки от короновируса.3 дозы.</description>
+		<jobString>Делает таблетки</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Chemlab_Medicine_Drink</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>1500</workAmount>
+		<recipeUsers>
+			<li>meditable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicalDrink</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			   <li>MedicalDrink</li>
+				<li>HemogenPack</li>
+				<li>MedicineHerbal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<pillsCoronavirus>3</pillsCoronavirus>
+		</products>
+		<skillRequirements>
+			<Medicine>8</Medicine>
+		</skillRequirements>
+		<workSkill>Medicine</workSkill>
+		
+	</RecipeDef>
+	
+	
+	
+	
+	<RecipeDef>
+		<defName>MakepillsEbola</defName>
+		<label>Сделать таблетки от Эболы</label>
+		<description>Сделать таблетки от Эболы.3 дозы.</description>
+		<jobString>Делает таблетки</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Chemlab_Medicine_Drink</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>1500</workAmount>
+		<recipeUsers>
+			<li>meditable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicalDrink</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			   <li>MedicalDrink</li>
+				<li>HemogenPack</li>
+				<li>MedicineHerbal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<pillsEbola>3</pillsEbola>
+		</products>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<workSkill>Medicine</workSkill>
+		
+	</RecipeDef>
+	
+	
+	
+	<RecipeDef>
+		<defName>MakepillsMeasles</defName>
+		<label>Сделать таблетки от Кори</label>
+		<description>Сделать таблетки от Кори.3 дозы.</description>
+		<jobString>Делает таблетки</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Chemlab_Medicine_Drink</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>1500</workAmount>
+		<recipeUsers>
+			<li>meditable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicalDrink</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			   <li>MedicalDrink</li>
+				<li>HemogenPack</li>
+				<li>MedicineHerbal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<pillsMeasles>3</pillsMeasles>
+		</products>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<workSkill>Medicine</workSkill>
+		
+	</RecipeDef>
+	
+	
+	
+	<RecipeDef>
+		<defName>MakepillsPneumonia</defName>
+		<label>Сделать таблетки от Пневмонии</label>
+		<description>Сделать таблетки от Пневмонии.3 дозы.</description>
+		<jobString>Делает таблетки</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Chemlab_Medicine_Drink</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>1500</workAmount>
+		<recipeUsers>
+			<li>meditable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicalDrink</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			   <li>MedicalDrink</li>
+				<li>HemogenPack</li>
+				<li>MedicineHerbal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<pillsPneumonia>3</pillsPneumonia>
+		</products>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<workSkill>Medicine</workSkill>
+		
+	</RecipeDef>
+	
+	
+	
+	
+	
+	
+	<RecipeDef>
+		<defName>MakeGraftWoundInfection</defName>
+		<label>Сделать систему очистки от заражения</label>
+		<description>Сделать систему очистки крови.3 набора.</description>
+		<jobString>Делает набор</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Chemlab_Medicine_Drink</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>1500</workAmount>
+		<recipeUsers>
+			<li>meditable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<ingredients>
+		    <li>
+				<filter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicalDrink</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AntidoteSafe</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			    	<li>HemogenPack</li>
+		    	<li>MedicalDrink</li>
+				<li>AntidoteSafe</li>
+				<li>MedicineIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GraftBlood>3</GraftBlood>
+		</products>
+		<skillRequirements>
+			<Medicine>7</Medicine>
+		</skillRequirements>
+		<workSkill>Medicine</workSkill>
+		<researchPrerequisite>PenoxycylineProduction</researchPrerequisite>
+	</RecipeDef>
+	
+	
+
+	<RecipeDef>
+		<defName>MakeprimitivepillsCommonCold</defName>
+		<label>Сделать зелье от простуды</label>
+		<description>Сделать зелье от простуды.3 дозы.</description>
+		<jobString>Делает зелье от простуды</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Chemlab_Medicine_Drink</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>1500</workAmount>
+		<recipeUsers>
+			<li>TableButcher</li>
+			<li>TableKitchen</li>
+			<li>meditable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WildRose</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			   <li>WildRose</li>
+				<li>HemogenPack</li>
+				<li>MedicineHerbal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<primitivepillsCommonCold>3</primitivepillsCommonCold>
+		</products>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<workSkill>Medicine</workSkill>
+	</RecipeDef>
+	
+	
+	
+	
+	<RecipeDef>
+		<defName>MakeprimitivepillsMalari</defName>
+		<label>Сделать зелье от малярии</label>
+		<description>Сделать зелье от малярии.3 дозы.</description>
+		<jobString>Делает зелье от малярии</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Chemlab_Medicine_Drink</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>1500</workAmount>
+		<recipeUsers>
+			<li>TableButcher</li>
+			<li>TableKitchen</li>
+			<li>meditable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WildRose</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			   <li>WildRose</li>
+				<li>HemogenPack</li>
+				<li>MedicineHerbal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<primitivepillsMalari>3</primitivepillsMalari>
+		</products>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<workSkill>Medicine</workSkill>
+	</RecipeDef>
+
+<RecipeDef>
+		<defName>MakeprimitivepillsFlu</defName>
+		<label>Сделать зелье от гриппа</label>
+		<description>Сделать  зелье от гриппа.3 дозы.</description>
+		<jobString>Делает   зелье от гриппа</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Chemlab_Medicine_Drink</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>1500</workAmount>
+		<recipeUsers>
+			<li>TableButcher</li>
+			<li>TableKitchen</li>
+			<li>meditable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WildRose</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			   <li>WildRose</li>
+				<li>HemogenPack</li>
+				<li>MedicineHerbal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<primitivepillsFlu>3</primitivepillsFlu>
+		</products>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<workSkill>Medicine</workSkill>
+		
+	</RecipeDef>
+
+
+<RecipeDef>
+		<defName>MakeprimitivepillsPlague</defName>
+		<label>Сделать зелье от чумы</label>
+		<description>Сделать зелье от чумы.3 дозы.</description>
+		<jobString>Делает зелье от чумы</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Chemlab_Medicine_Drink</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>1500</workAmount>
+		<recipeUsers>
+			<li>TableButcher</li>
+			<li>TableKitchen</li>
+			<li>meditable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WildRose</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			   <li>WildRose</li>
+				<li>HemogenPack</li>
+				<li>MedicineHerbal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<primitivepillsPlague>3</primitivepillsPlague>
+		</products>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<workSkill>Medicine</workSkill>
+		
+	</RecipeDef>
+
+
+<RecipeDef>
+		<defName>MakeprimitivepillsSleepingSickness</defName>
+		<label>Сделать зелье от сонной болезни</label>
+		<description>Сделать зелье от сонной болезни.3 дозы.</description>
+		<jobString>Делает зелье</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Chemlab_Medicine_Drink</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>1500</workAmount>
+		<recipeUsers>
+			<li>TableButcher</li>
+			<li>TableKitchen</li>
+			<li>meditable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WildRose</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			   <li>WildRose</li>
+				<li>HemogenPack</li>
+				<li>MedicineHerbal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<primitivepillsSleepingSickness>3</primitivepillsSleepingSickness>
+		</products>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<workSkill>Medicine</workSkill>
+		
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>MakeprimitivepillsCoronavirus</defName>
+		<label>Сделать зелье от Короновируса</label>
+		<description>Сделать зелье от короновируса.3 дозы.</description>
+		<jobString>Делает зелье</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Chemlab_Medicine_Drink</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>1500</workAmount>
+		<recipeUsers>
+			<li>TableButcher</li>
+			<li>TableKitchen</li>
+			<li>meditable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WildRose</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			   <li>WildRose</li>
+				<li>HemogenPack</li>
+				<li>MedicineHerbal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<primitivepillsCoronavirus>3</primitivepillsCoronavirus>
+		</products>
+		<skillRequirements>
+			<Medicine>4</Medicine>
+		</skillRequirements>
+		<workSkill>Medicine</workSkill>
+		
+	</RecipeDef>
+	
+	
+	
+	
+	<RecipeDef>
+		<defName>MakeprimitivepillsEbola</defName>
+		<label>Сделать зелье от Эболы</label>
+		<description>Сделать зелье от Эболы.3 дозы.</description>
+		<jobString>Делает зелье</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Chemlab_Medicine_Drink</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>1500</workAmount>
+		<recipeUsers>
+			<li>TableButcher</li>
+			<li>TableKitchen</li>
+			<li>meditable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WildRose</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			   <li>WildRose</li>
+				<li>HemogenPack</li>
+				<li>MedicineHerbal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<primitivepillsEbola>3</primitivepillsEbola>
+		</products>
+		<skillRequirements>
+			<Medicine>5</Medicine>
+		</skillRequirements>
+		<workSkill>Medicine</workSkill>
+		
+	</RecipeDef>
+	
+	
+	
+	<RecipeDef>
+		<defName>MakeprimitivepillsMeasles</defName>
+		<label>Сделать зелье от Кори</label>
+		<description>Сделать зелье от Кори.3 дозы.</description>
+		<jobString>Делает зелье</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Chemlab_Medicine_Drink</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>1500</workAmount>
+		<recipeUsers>
+			<li>TableButcher</li>
+			<li>TableKitchen</li>
+			<li>meditable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WildRose</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			   <li>WildRose</li>
+				<li>HemogenPack</li>
+				<li>MedicineHerbal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<primitivepillsMeasles>3</primitivepillsMeasles>
+		</products>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<workSkill>Medicine</workSkill>
+		
+	</RecipeDef>
+	
+	
+	
+	<RecipeDef>
+		<defName>MakeprimitivepillsPneumonia</defName>
+		<label>Сделать зелье от Пневмонии</label>
+		<description>Сделать зелье от Пневмонии.3 дозы.</description>
+		<jobString>Делает зелье</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Chemlab_Medicine_Drink</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>1500</workAmount>
+		<recipeUsers>
+			<li>TableButcher</li>
+			<li>TableKitchen</li>
+			<li>meditable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WildRose</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			   <li>WildRose</li>
+				<li>HemogenPack</li>
+				<li>MedicineHerbal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<primitivepillsPneumonia>3</primitivepillsPneumonia>
+		</products>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<workSkill>Medicine</workSkill>
+		
+	</RecipeDef>
+	
+	
+</Defs>

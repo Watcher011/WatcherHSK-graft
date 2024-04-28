@@ -1,0 +1,1082 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+<ThingDef ParentName="DrugPillBase">
+		<defName>GraftBlood</defName>
+		<label>Система очистки от заражения</label>
+		<description>Система что содержит набор лекарств, направленных на подавление болезнетворных бактерий или грибков,устраняет заражение</description>
+		<descriptionHyperlinks>
+			<HediffDef>WoundInfection</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Qure</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		 <tickerType>Normal</tickerType>
+		<statBases>
+			<WorkToMake>640</WorkToMake>
+			<MarketValue>300</MarketValue>
+			<Mass>3</Mass>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<ingestible>
+			<maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
+					<targetHediff>WoundInfection</targetHediff>
+					<surstractValue>0.35</surstractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+          			<hediffDef>GraftWoundInfectionConsumed</hediffDef>
+          			<severity>1.0</severity>
+        		</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>
+					<min>0.08</min>
+					<max>0.14</max>
+				</overdoseSeverityOffset>
+				<addictiveness>0</addictiveness>
+			</li>
+			  <li Class="CompProperties_Rottable">
+        <daysToRotStart>45</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    	</comps>
+	</ThingDef>
+
+	<HediffDef>
+		<defName>GraftWoundInfectionConsumed</defName>
+		<hediffClass>Hediff_High</hediffClass>
+		<label>Очистка крови</label>
+		<description>Антитела атакует клетки патогена, что вызывает слабость и жар</description>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		 <scenarioCanAdd>true</scenarioCanAdd>
+		<maxSeverity>3.0</maxSeverity>
+		<isBad>true</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.5</severityPerDay>
+				 <showHoursToRecover>true</showHoursToRecover>
+			</li>
+		</comps>
+		 <stages>
+      <li>
+	     <minSeverity>0.1</minSeverity>
+        <label>withdrawal</label>
+        <restFallFactorOffset>0.3</restFallFactorOffset>
+        <socialFightChanceFactor>1.0</socialFightChanceFactor>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.20</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.20</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.20</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+	</HediffDef>
+
+	<ThingDef ParentName="DrugPillBase">
+		<defName>pillsCommonCold</defName>
+		<label>Таблетки от простуды</label>
+		<description>Таблетки от простуды, не устраняет влияние вируса, но значительно задерживает его развитие подавляя симптомы -25% от прогресса заболевания(может даже рабочая).</description>
+		<descriptionHyperlinks>
+			<HediffDef>CommonCold</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Pills</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(0.5)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		 <tickerType>Normal</tickerType>
+		<statBases>
+			<WorkToMake>640</WorkToMake>
+			<MarketValue>96</MarketValue>
+			<Mass>0.002</Mass>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<ingestible>
+			<maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
+			<ingestCommandString>Выпить {0}</ingestCommandString>
+			<ingestReportString>Выпивает {0}.</ingestReportString>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+			<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>MedicalDrink</hediffDef>
+					<severity>0.65</severity>
+				</li>
+				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
+					<targetHediff>CommonCold</targetHediff>
+					<surstractValue>0.25</surstractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>
+					<min>0.08</min>
+					<max>0.14</max>
+				</overdoseSeverityOffset>
+				<addictiveness>0</addictiveness>
+			</li>
+			  <li Class="CompProperties_Rottable">
+        <daysToRotStart>50</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    	</comps>
+	</ThingDef>
+
+
+
+
+
+
+		<ThingDef ParentName="DrugPillBase">
+		<defName>pillsMalari</defName>
+		<label>Таблетки от малярии</label>
+		<description>Таблетки от малярии, не устраняет влияние вируса, но значительно задерживает его развитие подавляя симптомы -25% от прогресса заболевания(может даже рабочая).</description>
+		<descriptionHyperlinks>
+			<HediffDef>Malaria</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Pills</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(0.5)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		 <tickerType>Normal</tickerType>
+		<statBases>
+			<WorkToMake>640</WorkToMake>
+			<MarketValue>96</MarketValue>
+			<Mass>0.002</Mass>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<ingestible>
+			<maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
+			<ingestCommandString>Выпить {0}</ingestCommandString>
+			<ingestReportString>Выпивает {0}.</ingestReportString>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+			<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>MedicalDrink</hediffDef>
+					<severity>0.65</severity>
+				</li>
+				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
+					<targetHediff>Malaria</targetHediff>
+					<surstractValue>0.25</surstractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>
+					<min>0.08</min>
+					<max>0.14</max>
+				</overdoseSeverityOffset>
+				<addictiveness>0</addictiveness>
+			</li>
+			  <li Class="CompProperties_Rottable">
+        <daysToRotStart>50</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    	</comps>
+	</ThingDef>
+
+		
+	
+<ThingDef ParentName="DrugPillBase">
+		<defName>pillsFlu</defName>
+		<label>Таблетки от гриппа</label>
+		<description>Таблетки от гриппа, не устраняет влияние вируса, но значительно задерживает его развитие подавляя симптомы -25% от прогресса заболевания(Надеюсь что он эффективен).</description>
+		<descriptionHyperlinks>
+			<HediffDef>Flu</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Pills</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(0.5)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		  <tickerType>Normal</tickerType>
+		<statBases>
+			<WorkToMake>640</WorkToMake>
+			<MarketValue>96</MarketValue>
+			<Mass>0.002</Mass>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<ingestible>
+			<maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
+			<drugCategory>Medical</drugCategory>
+			<ingestCommandString>Выпить {0}</ingestCommandString>
+			<ingestReportString>Выпивает {0}.</ingestReportString>
+			<outcomeDoers>
+			    <li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>MedicalDrink</hediffDef>
+					<severity>0.65</severity>
+				</li>
+				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
+					<targetHediff>Flu</targetHediff>
+					<surstractValue>0.25</surstractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>
+					<min>0.08</min>
+					<max>0.14</max>
+				</overdoseSeverityOffset>
+				<addictiveness>0</addictiveness>
+			</li>
+			  <li Class="CompProperties_Rottable">
+        <daysToRotStart>55</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    	</comps>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="DrugPillBase">
+		<defName>pillsPlague</defName>
+		<label>Таблетки от чумы</label>
+		<description>Таблетки от чумы, не устраняет влияние вируса, но значительно задерживает его развитие подавляя симптомы -25% от прогресса заболевания(Срок годности почти истёк).</description>
+		<descriptionHyperlinks>
+			<HediffDef>Plague</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Pills</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(0.5)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		  <tickerType>Normal</tickerType>
+		<statBases>
+			<WorkToMake>640</WorkToMake>
+			<MarketValue>96</MarketValue>
+			<Mass>0.002</Mass>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<ingestible>
+			<maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
+			<drugCategory>Medical</drugCategory>
+			<ingestCommandString>Выпить {0}</ingestCommandString>
+			<ingestReportString>Выпивает {0}.</ingestReportString>
+			<outcomeDoers>
+			 <li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>MedicalDrink</hediffDef>
+					<severity>0.65</severity>
+				</li>
+				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
+					<targetHediff>Plague</targetHediff>
+					<surstractValue>0.25</surstractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>
+					<min>0.08</min>
+					<max>0.14</max>
+				</overdoseSeverityOffset>
+				<addictiveness>0</addictiveness>
+			</li>
+			  <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    	</comps>
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="DrugPillBase">
+		<defName>pillsSleepingSickness</defName>
+		<label>Таблетки от сонной болезни</label>
+		<description>Таблетки от сонной болезни, не устраняет влияние вируса, но значительно задерживает его развитие подавляя симптомы -25% от прогресса заболевания(кофеин и адреналин , они точно не дадут уснуть).</description>
+		<descriptionHyperlinks>
+			<HediffDef>SleepingSickness</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Pills</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(0.5)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		  <tickerType>Normal</tickerType>
+		<statBases>
+			<WorkToMake>640</WorkToMake>
+			<MarketValue>96</MarketValue>
+			<Mass>0.002</Mass>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<ingestible>
+			<maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
+			<drugCategory>Medical</drugCategory>
+			<ingestCommandString>Выпить {0}</ingestCommandString>
+			<ingestReportString>Выпивает {0}.</ingestReportString>
+			<outcomeDoers>
+			 <li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>MedicalDrink</hediffDef>
+					<severity>0.65</severity>
+				</li>
+				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
+					<targetHediff>SleepingSickness</targetHediff>
+					<surstractValue>0.25</surstractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>
+					<min>0.08</min>
+					<max>0.14</max>
+				</overdoseSeverityOffset>
+				<addictiveness>0</addictiveness>
+			</li>
+			  <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    	</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="DrugPillBase">
+		<defName>pillsCoronavirus</defName>
+		<label>Таблетки от Короновируса</label>
+		<description>Таблетки от Короновируса, не устраняет влияние вируса, но значительно задерживает его развитие подавляя симптомы -25% от прогресса заболевания(Содержит до 10% наноботов).</description>
+		<descriptionHyperlinks>
+			<HediffDef>Coronavirus</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Pills</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(0.5)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		  <tickerType>Normal</tickerType>
+		<statBases>
+			<WorkToMake>640</WorkToMake>
+			<MarketValue>96</MarketValue>
+			<Mass>0.002</Mass>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<ingestible>
+			<maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
+			<drugCategory>Medical</drugCategory>
+			<ingestCommandString>Выпить {0}</ingestCommandString>
+			<ingestReportString>Выпивает {0}.</ingestReportString>
+			<outcomeDoers>
+			 <li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>MedicalDrink</hediffDef>
+					<severity>0.65</severity>
+				</li>
+				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
+					<targetHediff>Coronavirus</targetHediff>
+					<surstractValue>0.25</surstractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>
+					<min>0.08</min>
+					<max>0.14</max>
+				</overdoseSeverityOffset>
+				<addictiveness>0</addictiveness>
+			</li>
+			  <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    	</comps>
+	</ThingDef>
+	
+	
+
+      <ThingDef ParentName="DrugPillBase">
+		<defName>pillsEbola</defName>
+		<label>Таблетки от Эболы</label>
+		<description>Таблетки от Эболы, не устраняет влияние вируса, но значительно задерживает его развитие подавляя симптомы -25% от прогресса заболевания(да где вы её откопали?).</description>
+		<descriptionHyperlinks>
+			<HediffDef>Ebola</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Pills</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(0.5)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		  <tickerType>Normal</tickerType>
+		<statBases>
+			<WorkToMake>640</WorkToMake>
+			<MarketValue>96</MarketValue>
+			<Mass>0.002</Mass>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<ingestible>
+			<maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
+			<drugCategory>Medical</drugCategory>
+			<ingestCommandString>Выпить {0}</ingestCommandString>
+			<ingestReportString>Выпивает {0}.</ingestReportString>
+			<outcomeDoers>
+			 <li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>MedicalDrink</hediffDef>
+					<severity>0.65</severity>
+				</li>
+				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
+					<targetHediff>Ebola</targetHediff>
+					<surstractValue>0.25</surstractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>
+					<min>0.08</min>
+					<max>0.14</max>
+				</overdoseSeverityOffset>
+				<addictiveness>0</addictiveness>
+			</li>
+			  <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    	</comps>
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="DrugPillBase">
+		<defName>pillsMeasles</defName>
+		<label>Таблетки от Кори</label>
+		<description>Таблетки от Кори, не устраняет влияние вируса, но значительно задерживает его развитие подавляя симптомы -25% от прогресса заболевания(это же лечится ,да?).</description>
+		<descriptionHyperlinks>
+			<HediffDef>Measles</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Pills</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(0.5)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		  <tickerType>Normal</tickerType>
+		<statBases>
+			<WorkToMake>640</WorkToMake>
+			<MarketValue>96</MarketValue>
+			<Mass>0.002</Mass>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<ingestible>
+			<maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
+			<drugCategory>Medical</drugCategory>
+			<ingestCommandString>Выпить {0}</ingestCommandString>
+			<ingestReportString>Выпивает {0}.</ingestReportString>
+			<outcomeDoers>
+			 <li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>MedicalDrink</hediffDef>
+					<severity>0.65</severity>
+				</li>
+				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
+					<targetHediff>Measles</targetHediff>
+					<surstractValue>0.25</surstractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>
+					<min>0.08</min>
+					<max>0.14</max>
+				</overdoseSeverityOffset>
+				<addictiveness>0</addictiveness>
+			</li>
+			  <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    	</comps>
+	</ThingDef>
+
+
+
+<ThingDef ParentName="DrugPillBase">
+		<defName>pillsPneumonia</defName>
+		<label>Таблетки от Пневмонии</label>
+		<description>Таблетки от Пневмонии, не устраняет влияние вируса, но значительно задерживает его развитие подавляя симптомы -25% от прогресса заболевания(это же безопасно ,да?).</description>
+		<descriptionHyperlinks>
+			<HediffDef>Pneumonia</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Pills</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(0.5)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		  <tickerType>Normal</tickerType>
+		<statBases>
+			<WorkToMake>640</WorkToMake>
+			<MarketValue>96</MarketValue>
+			<Mass>0.002</Mass>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<ingestible>
+			<maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
+			<drugCategory>Medical</drugCategory>
+			<ingestCommandString>Выпить {0}</ingestCommandString>
+			<ingestReportString>Выпивает {0}.</ingestReportString>
+			<outcomeDoers>
+			 <li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>MedicalDrink</hediffDef>
+					<severity>0.65</severity>
+				</li>
+				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
+					<targetHediff>Pneumonia</targetHediff>
+					<surstractValue>0.25</surstractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>
+					<min>0.08</min>
+					<max>0.14</max>
+				</overdoseSeverityOffset>
+				<addictiveness>0</addictiveness>
+			</li>
+			  <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    	</comps>
+	</ThingDef>
+
+
+
+		<ThingDef ParentName="DrugPillBase">
+		<defName>primitivepillsCommonCold</defName>
+		<label>Зелье от простуды</label>
+		<description>Зелье от простуды, не устраняет влияние вируса, но значительно задерживает его развитие подавляя симптомы -15% от прогресса заболевания(может даже рабочая).</description>
+		<descriptionHyperlinks>
+			<HediffDef>CommonCold</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Swarm</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(0.5)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		 <tickerType>Normal</tickerType>
+		<statBases>
+			<WorkToMake>640</WorkToMake>
+			<MarketValue>96</MarketValue>
+			<Mass>0.002</Mass>
+		</statBases>
+		<techLevel>Neolithic</techLevel>
+		<ingestible>
+			<maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
+			<ingestCommandString>Выпить {0}</ingestCommandString>
+			<ingestReportString>Выпивает {0}.</ingestReportString>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+			<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>MedicalDrink</hediffDef>
+					<severity>0.15</severity>
+				</li>
+				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
+					<targetHediff>CommonCold</targetHediff>
+					<surstractValue>0.15</surstractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>
+					<min>0.08</min>
+					<max>0.14</max>
+				</overdoseSeverityOffset>
+				<addictiveness>0</addictiveness>
+			</li>
+			  <li Class="CompProperties_Rottable">
+        <daysToRotStart>50</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    	</comps>
+	</ThingDef>
+
+
+
+		<ThingDef ParentName="DrugPillBase">
+		<defName>primitivepillsMalari</defName>
+		<label>Зелье от малярии</label>
+		<description>Зелье от малярии, не устраняет влияние вируса, но значительно задерживает его развитие подавляя симптомы -15% от прогресса заболевания(может даже рабочая).</description>
+		<descriptionHyperlinks>
+			<HediffDef>Malaria</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Swarm</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(0.5)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		 <tickerType>Normal</tickerType>
+		<statBases>
+			<WorkToMake>640</WorkToMake>
+			<MarketValue>96</MarketValue>
+			<Mass>0.002</Mass>
+		</statBases>
+		<techLevel>Neolithic</techLevel>
+		<ingestible>
+			<maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
+			<ingestCommandString>Выпить {0}</ingestCommandString>
+			<ingestReportString>Выпивает {0}.</ingestReportString>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+			<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>MedicalDrink</hediffDef>
+					<severity>0.15</severity>
+				</li>
+				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
+					<targetHediff>Malaria</targetHediff>
+					<surstractValue>0.15</surstractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>
+					<min>0.08</min>
+					<max>0.14</max>
+				</overdoseSeverityOffset>
+				<addictiveness>0</addictiveness>
+			</li>
+			  <li Class="CompProperties_Rottable">
+        <daysToRotStart>50</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    	</comps>
+	</ThingDef>
+
+		
+	
+<ThingDef ParentName="DrugPillBase">
+		<defName>primitivepillsFlu</defName>
+		<label>Зелье от гриппа</label>
+		<description>Зелье от гриппа, не устраняет влияние вируса, но значительно задерживает его развитие подавляя симптомы -15% от прогресса заболевания(Надеюсь что он эффективен).</description>
+		<descriptionHyperlinks>
+			<HediffDef>Flu</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Swarm</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(0.5)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		  <tickerType>Normal</tickerType>
+		<statBases>
+			<WorkToMake>640</WorkToMake>
+			<MarketValue>96</MarketValue>
+			<Mass>0.002</Mass>
+		</statBases>
+		<techLevel>Neolithic</techLevel>
+		<ingestible>
+			<maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
+			<drugCategory>Medical</drugCategory>
+			<ingestCommandString>Выпить {0}</ingestCommandString>
+			<ingestReportString>Выпивает {0}.</ingestReportString>
+			<outcomeDoers>
+			    <li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>MedicalDrink</hediffDef>
+					<severity>0.15</severity>
+				</li>
+				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
+					<targetHediff>Flu</targetHediff>
+					<surstractValue>0.15</surstractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>
+					<min>0.08</min>
+					<max>0.14</max>
+				</overdoseSeverityOffset>
+				<addictiveness>0</addictiveness>
+			</li>
+			  <li Class="CompProperties_Rottable">
+        <daysToRotStart>55</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    	</comps>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="DrugPillBase">
+		<defName>primitivepillsPlague</defName>
+		<label>Зелье от чумы</label>
+		<description>Зелье от чумы, не устраняет влияние вируса, но значительно задерживает его развитие подавляя симптомы -15% от прогресса заболевания(Срок годности почти истёк).</description>
+		<descriptionHyperlinks>
+			<HediffDef>Plague</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Swarm</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(0.5)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		  <tickerType>Normal</tickerType>
+		<statBases>
+			<WorkToMake>640</WorkToMake>
+			<MarketValue>96</MarketValue>
+			<Mass>0.002</Mass>
+		</statBases>
+		<techLevel>Neolithic</techLevel>
+		<ingestible>
+			<maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
+			<drugCategory>Medical</drugCategory>
+			<ingestCommandString>Выпить {0}</ingestCommandString>
+			<ingestReportString>Выпивает {0}.</ingestReportString>
+			<outcomeDoers>
+			 <li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>MedicalDrink</hediffDef>
+					<severity>0.15</severity>
+				</li>
+				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
+					<targetHediff>Plague</targetHediff>
+					<surstractValue>0.15</surstractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>
+					<min>0.08</min>
+					<max>0.14</max>
+				</overdoseSeverityOffset>
+				<addictiveness>0</addictiveness>
+			</li>
+			  <li Class="CompProperties_Rottable">
+        <daysToRotStart>55</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    	</comps>
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="DrugPillBase">
+		<defName>primitivepillsSleepingSickness</defName>
+		<label>Зелье от сонной болезни</label>
+		<description>Зелье от сонной болезни, не устраняет влияние вируса, но значительно задерживает его развитие подавляя симптомы -15% от прогресса заболевания(кофеин и адреналин , они точно не дадут уснуть).</description>
+		<descriptionHyperlinks>
+			<HediffDef>SleepingSickness</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Swarm</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(0.5)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		  <tickerType>Normal</tickerType>
+		<statBases>
+			<WorkToMake>640</WorkToMake>
+			<MarketValue>96</MarketValue>
+			<Mass>0.002</Mass>
+		</statBases>
+		<techLevel>Neolithic</techLevel>
+		<ingestible>
+			<maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
+			<drugCategory>Medical</drugCategory>
+			<ingestCommandString>Выпить {0}</ingestCommandString>
+			<ingestReportString>Выпивает {0}.</ingestReportString>
+			<outcomeDoers>
+			 <li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>MedicalDrink</hediffDef>
+					<severity>0.15</severity>
+				</li>
+				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
+					<targetHediff>SleepingSickness</targetHediff>
+					<surstractValue>0.15</surstractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>
+					<min>0.08</min>
+					<max>0.14</max>
+				</overdoseSeverityOffset>
+				<addictiveness>0</addictiveness>
+			</li>
+			  <li Class="CompProperties_Rottable">
+        <daysToRotStart>55</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    	</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="DrugPillBase">
+		<defName>primitivepillsCoronavirus</defName>
+		<label>Зелье от Короновируса</label>
+		<description>Зелье от Короновируса, не устраняет влияние вируса, но значительно задерживает его развитие подавляя симптомы -15% от прогресса заболевания(Содержит до 10% наноботов).</description>
+		<descriptionHyperlinks>
+			<HediffDef>Coronavirus</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Swarm</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(0.5)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		  <tickerType>Normal</tickerType>
+		<statBases>
+			<WorkToMake>640</WorkToMake>
+			<MarketValue>96</MarketValue>
+			<Mass>0.002</Mass>
+		</statBases>
+		<techLevel>Neolithic</techLevel>
+		<ingestible>
+			<maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
+			<drugCategory>Medical</drugCategory>
+			<ingestCommandString>Выпить {0}</ingestCommandString>
+			<ingestReportString>Выпивает {0}.</ingestReportString>
+			<outcomeDoers>
+			 <li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>MedicalDrink</hediffDef>
+					<severity>0.15</severity>
+				</li>
+				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
+					<targetHediff>Coronavirus</targetHediff>
+					<surstractValue>0.15</surstractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>
+					<min>0.08</min>
+					<max>0.14</max>
+				</overdoseSeverityOffset>
+				<addictiveness>0</addictiveness>
+			</li>
+			  <li Class="CompProperties_Rottable">
+        <daysToRotStart>55</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    	</comps>
+	</ThingDef>
+	
+	
+
+      <ThingDef ParentName="DrugPillBase">
+		<defName>primitivepillsEbola</defName>
+		<label>Зелье от Эболы</label>
+		<description>Зелье от Эболы, не устраняет влияние вируса, но значительно задерживает его развитие подавляя симптомы -15% от прогресса заболевания(да где вы её откопали?).</description>
+		<descriptionHyperlinks>
+			<HediffDef>Ebola</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Swarm</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(0.5)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		  <tickerType>Normal</tickerType>
+		<statBases>
+			<WorkToMake>640</WorkToMake>
+			<MarketValue>96</MarketValue>
+			<Mass>0.002</Mass>
+		</statBases>
+		<techLevel>Neolithic</techLevel>
+		<ingestible>
+			<maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
+			<drugCategory>Medical</drugCategory>
+			<ingestCommandString>Выпить {0}</ingestCommandString>
+			<ingestReportString>Выпивает {0}.</ingestReportString>
+			<outcomeDoers>
+			 <li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>MedicalDrink</hediffDef>
+					<severity>0.15</severity>
+				</li>
+				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
+					<targetHediff>Ebola</targetHediff>
+					<surstractValue>0.15</surstractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>
+					<min>0.08</min>
+					<max>0.14</max>
+				</overdoseSeverityOffset>
+				<addictiveness>0</addictiveness>
+			</li>
+			  <li Class="CompProperties_Rottable">
+        <daysToRotStart>55</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    	</comps>
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="DrugPillBase">
+		<defName>primitivepillsMeasles</defName>
+		<label>Зелье от Кори</label>
+		<description>Зелье от Кори, не устраняет влияние вируса, но значительно задерживает его развитие подавляя симптомы -15% от прогресса заболевания(это же лечится ,да?).</description>
+		<descriptionHyperlinks>
+			<HediffDef>Measles</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Swarm</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(0.5)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		  <tickerType>Normal</tickerType>
+		<statBases>
+			<WorkToMake>640</WorkToMake>
+			<MarketValue>96</MarketValue>
+			<Mass>0.002</Mass>
+		</statBases>
+		<techLevel>Neolithic</techLevel>
+		<ingestible>
+			<maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
+			<drugCategory>Medical</drugCategory>
+			<ingestCommandString>Выпить {0}</ingestCommandString>
+			<ingestReportString>Выпивает {0}.</ingestReportString>
+			<outcomeDoers>
+			 <li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>MedicalDrink</hediffDef>
+					<severity>0.15</severity>
+				</li>
+				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
+					<targetHediff>Measles</targetHediff>
+					<surstractValue>0.15</surstractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>
+					<min>0.08</min>
+					<max>0.14</max>
+				</overdoseSeverityOffset>
+				<addictiveness>0</addictiveness>
+			</li>
+			  <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    	</comps>
+	</ThingDef>
+
+
+
+<ThingDef ParentName="DrugPillBase">
+		<defName>primitivepillsPneumonia</defName>
+		<label>Зелье от Пневмонии</label>
+		<description>Зелье от Пневмонии, не устраняет влияние вируса, но значительно задерживает его развитие подавляя симптомы -15% от прогресса заболевания(это же безопасно ,да?).</description>
+		<descriptionHyperlinks>
+			<HediffDef>Pneumonia</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/Swarm</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(0.5)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		  <tickerType>Normal</tickerType>
+		<statBases>
+			<WorkToMake>640</WorkToMake>
+			<MarketValue>96</MarketValue>
+			<Mass>0.002</Mass>
+		</statBases>
+		<techLevel>Neolithic</techLevel>
+		<ingestible>
+			<maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
+			<drugCategory>Medical</drugCategory>
+			<ingestCommandString>Выпить {0}</ingestCommandString>
+			<ingestReportString>Выпивает {0}.</ingestReportString>
+			<outcomeDoers>
+			 <li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>MedicalDrink</hediffDef>
+					<severity>0.15</severity>
+				</li>
+				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
+					<targetHediff>Pneumonia</targetHediff>
+					<surstractValue>0.15</surstractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>
+					<min>0.08</min>
+					<max>0.14</max>
+				</overdoseSeverityOffset>
+				<addictiveness>0</addictiveness>
+			</li>
+			  <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    	</comps>
+	</ThingDef>
+
+
+
+</Defs>
