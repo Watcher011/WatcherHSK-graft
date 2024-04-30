@@ -47,8 +47,7 @@
 				<addictiveness>0</addictiveness>
 			</li>
 			  <li Class="CompProperties_Rottable">
-        <daysToRotStart>45</daysToRotStart>
-        <rotDestroys>true</rotDestroys>
+        <rotDestroys>false</rotDestroys>
       </li>
     	</comps>
 	</ThingDef>
@@ -138,10 +137,6 @@
 				</overdoseSeverityOffset>
 				<addictiveness>0</addictiveness>
 			</li>
-			  <li Class="CompProperties_Rottable">
-        <daysToRotStart>50</daysToRotStart>
-        <rotDestroys>true</rotDestroys>
-      </li>
     	</comps>
 	</ThingDef>
 
@@ -196,10 +191,7 @@
 				</overdoseSeverityOffset>
 				<addictiveness>0</addictiveness>
 			</li>
-			  <li Class="CompProperties_Rottable">
-        <daysToRotStart>50</daysToRotStart>
-        <rotDestroys>true</rotDestroys>
-      </li>
+			
     	</comps>
 	</ThingDef>
 
@@ -251,10 +243,7 @@
 				</overdoseSeverityOffset>
 				<addictiveness>0</addictiveness>
 			</li>
-			  <li Class="CompProperties_Rottable">
-        <daysToRotStart>55</daysToRotStart>
-        <rotDestroys>true</rotDestroys>
-      </li>
+			
     	</comps>
 	</ThingDef>
 	
@@ -305,10 +294,7 @@
 				</overdoseSeverityOffset>
 				<addictiveness>0</addictiveness>
 			</li>
-			  <li Class="CompProperties_Rottable">
-        <daysToRotStart>15</daysToRotStart>
-        <rotDestroys>true</rotDestroys>
-      </li>
+			
     	</comps>
 	</ThingDef>
 	
@@ -360,10 +346,7 @@
 				</overdoseSeverityOffset>
 				<addictiveness>0</addictiveness>
 			</li>
-			  <li Class="CompProperties_Rottable">
-        <daysToRotStart>15</daysToRotStart>
-        <rotDestroys>true</rotDestroys>
-      </li>
+			 
     	</comps>
 	</ThingDef>
 	
@@ -413,10 +396,7 @@
 				</overdoseSeverityOffset>
 				<addictiveness>0</addictiveness>
 			</li>
-			  <li Class="CompProperties_Rottable">
-        <daysToRotStart>15</daysToRotStart>
-        <rotDestroys>true</rotDestroys>
-      </li>
+			
     	</comps>
 	</ThingDef>
 	
@@ -468,10 +448,7 @@
 				</overdoseSeverityOffset>
 				<addictiveness>0</addictiveness>
 			</li>
-			  <li Class="CompProperties_Rottable">
-        <daysToRotStart>15</daysToRotStart>
-        <rotDestroys>true</rotDestroys>
-      </li>
+			
     	</comps>
 	</ThingDef>
 	
@@ -523,10 +500,7 @@
 				</overdoseSeverityOffset>
 				<addictiveness>0</addictiveness>
 			</li>
-			  <li Class="CompProperties_Rottable">
-        <daysToRotStart>15</daysToRotStart>
-        <rotDestroys>true</rotDestroys>
-      </li>
+			
     	</comps>
 	</ThingDef>
 
@@ -578,10 +552,7 @@
 				</overdoseSeverityOffset>
 				<addictiveness>0</addictiveness>
 			</li>
-			  <li Class="CompProperties_Rottable">
-        <daysToRotStart>15</daysToRotStart>
-        <rotDestroys>true</rotDestroys>
-      </li>
+			
     	</comps>
 	</ThingDef>
 
@@ -633,10 +604,7 @@
 				</overdoseSeverityOffset>
 				<addictiveness>0</addictiveness>
 			</li>
-			  <li Class="CompProperties_Rottable">
-        <daysToRotStart>50</daysToRotStart>
-        <rotDestroys>true</rotDestroys>
-      </li>
+			
     	</comps>
 	</ThingDef>
 
@@ -688,10 +656,7 @@
 				</overdoseSeverityOffset>
 				<addictiveness>0</addictiveness>
 			</li>
-			  <li Class="CompProperties_Rottable">
-        <daysToRotStart>50</daysToRotStart>
-        <rotDestroys>true</rotDestroys>
-      </li>
+			
     	</comps>
 	</ThingDef>
 
@@ -743,10 +708,7 @@
 				</overdoseSeverityOffset>
 				<addictiveness>0</addictiveness>
 			</li>
-			  <li Class="CompProperties_Rottable">
-        <daysToRotStart>55</daysToRotStart>
-        <rotDestroys>true</rotDestroys>
-      </li>
+			
     	</comps>
 	</ThingDef>
 	
@@ -797,10 +759,7 @@
 				</overdoseSeverityOffset>
 				<addictiveness>0</addictiveness>
 			</li>
-			  <li Class="CompProperties_Rottable">
-        <daysToRotStart>55</daysToRotStart>
-        <rotDestroys>true</rotDestroys>
-      </li>
+			
     	</comps>
 	</ThingDef>
 	
@@ -852,10 +811,7 @@
 				</overdoseSeverityOffset>
 				<addictiveness>0</addictiveness>
 			</li>
-			  <li Class="CompProperties_Rottable">
-        <daysToRotStart>55</daysToRotStart>
-        <rotDestroys>true</rotDestroys>
-      </li>
+			
     	</comps>
 	</ThingDef>
 	
@@ -905,10 +861,7 @@
 				</overdoseSeverityOffset>
 				<addictiveness>0</addictiveness>
 			</li>
-			  <li Class="CompProperties_Rottable">
-        <daysToRotStart>55</daysToRotStart>
-        <rotDestroys>true</rotDestroys>
-      </li>
+			
     	</comps>
 	</ThingDef>
 	
@@ -960,10 +913,7 @@
 				</overdoseSeverityOffset>
 				<addictiveness>0</addictiveness>
 			</li>
-			  <li Class="CompProperties_Rottable">
-        <daysToRotStart>55</daysToRotStart>
-        <rotDestroys>true</rotDestroys>
-      </li>
+			
     	</comps>
 	</ThingDef>
 	
@@ -1015,10 +965,7 @@
 				</overdoseSeverityOffset>
 				<addictiveness>0</addictiveness>
 			</li>
-			  <li Class="CompProperties_Rottable">
-        <daysToRotStart>15</daysToRotStart>
-        <rotDestroys>true</rotDestroys>
-      </li>
+			
     	</comps>
 	</ThingDef>
 
@@ -1070,10 +1017,7 @@
 				</overdoseSeverityOffset>
 				<addictiveness>0</addictiveness>
 			</li>
-			  <li Class="CompProperties_Rottable">
-        <daysToRotStart>15</daysToRotStart>
-        <rotDestroys>true</rotDestroys>
-      </li>
+			
     	</comps>
 	</ThingDef>
 
