@@ -32,6 +32,10 @@
 					<removeIfBelowZero>true</removeIfBelowZero>
 				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Hediff_Death_X</hediffDef>
+					<severity>0.95</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
           			<hediffDef>GraftWoundInfectionConsumed</hediffDef>
           			<severity>1.0</severity>
         		</li>
@@ -121,6 +125,10 @@
 					<hediffDef>MedicalDrink</hediffDef>
 					<severity>0.65</severity>
 				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Hediff_Death_X</hediffDef>
+					<severity>0.95</severity>
+				</li>
 				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
 					<targetHediff>CommonCold</targetHediff>
 					<surstractValue>0.25</surstractValue>
@@ -175,6 +183,10 @@
 					<hediffDef>MedicalDrink</hediffDef>
 					<severity>0.65</severity>
 				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Hediff_Death_X</hediffDef>
+					<severity>0.95</severity>
+				</li>
 				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
 					<targetHediff>Malaria</targetHediff>
 					<surstractValue>0.25</surstractValue>
@@ -227,6 +239,10 @@
 					<hediffDef>MedicalDrink</hediffDef>
 					<severity>0.65</severity>
 				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Hediff_Death_X</hediffDef>
+					<severity>0.95</severity>
+				</li>
 				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
 					<targetHediff>Flu</targetHediff>
 					<surstractValue>0.25</surstractValue>
@@ -277,6 +293,10 @@
 			 <li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>MedicalDrink</hediffDef>
 					<severity>0.65</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Hediff_Death_X</hediffDef>
+					<severity>0.95</severity>
 				</li>
 				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
 					<targetHediff>Plague</targetHediff>
@@ -330,6 +350,10 @@
 					<hediffDef>MedicalDrink</hediffDef>
 					<severity>0.65</severity>
 				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Hediff_Death_X</hediffDef>
+					<severity>0.95</severity>
+				</li>
 				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
 					<targetHediff>SleepingSickness</targetHediff>
 					<surstractValue>0.25</surstractValue>
@@ -379,6 +403,10 @@
 			 <li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>MedicalDrink</hediffDef>
 					<severity>0.65</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Hediff_Death_X</hediffDef>
+					<severity>0.95</severity>
 				</li>
 				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
 					<targetHediff>Coronavirus</targetHediff>
@@ -432,6 +460,10 @@
 					<hediffDef>MedicalDrink</hediffDef>
 					<severity>0.65</severity>
 				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Hediff_Death_X</hediffDef>
+					<severity>0.95</severity>
+				</li>
 				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
 					<targetHediff>Ebola</targetHediff>
 					<surstractValue>0.25</surstractValue>
@@ -483,6 +515,10 @@
 			 <li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>MedicalDrink</hediffDef>
 					<severity>0.65</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Hediff_Death_X</hediffDef>
+					<severity>0.95</severity>
 				</li>
 				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
 					<targetHediff>Measles</targetHediff>
@@ -536,6 +572,10 @@
 					<hediffDef>MedicalDrink</hediffDef>
 					<severity>0.65</severity>
 				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Hediff_Death_X</hediffDef>
+					<severity>0.95</severity>
+				</li>
 				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
 					<targetHediff>Pneumonia</targetHediff>
 					<surstractValue>0.25</surstractValue>
@@ -587,6 +627,10 @@
 			<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>MedicalDrink</hediffDef>
 					<severity>0.15</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Hediff_Death_X</hediffDef>
+					<severity>0.95</severity>
 				</li>
 				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
 					<targetHediff>CommonCold</targetHediff>
@@ -640,6 +684,10 @@
 					<hediffDef>MedicalDrink</hediffDef>
 					<severity>0.15</severity>
 				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Hediff_Death_X</hediffDef>
+					<severity>0.95</severity>
+				</li>
 				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
 					<targetHediff>Malaria</targetHediff>
 					<surstractValue>0.15</surstractValue>
@@ -692,6 +740,10 @@
 					<hediffDef>MedicalDrink</hediffDef>
 					<severity>0.15</severity>
 				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Hediff_Death_X</hediffDef>
+					<severity>0.95</severity>
+				</li>
 				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
 					<targetHediff>Flu</targetHediff>
 					<surstractValue>0.15</surstractValue>
@@ -742,6 +794,10 @@
 			 <li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>MedicalDrink</hediffDef>
 					<severity>0.15</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Hediff_Death_X</hediffDef>
+					<severity>0.95</severity>
 				</li>
 				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
 					<targetHediff>Plague</targetHediff>
@@ -795,6 +851,10 @@
 					<hediffDef>MedicalDrink</hediffDef>
 					<severity>0.15</severity>
 				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Hediff_Death_X</hediffDef>
+					<severity>0.95</severity>
+				</li>
 				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
 					<targetHediff>SleepingSickness</targetHediff>
 					<surstractValue>0.15</surstractValue>
@@ -844,6 +904,10 @@
 			 <li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>MedicalDrink</hediffDef>
 					<severity>0.15</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Hediff_Death_X</hediffDef>
+					<severity>0.95</severity>
 				</li>
 				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
 					<targetHediff>Coronavirus</targetHediff>
@@ -897,6 +961,10 @@
 					<hediffDef>MedicalDrink</hediffDef>
 					<severity>0.15</severity>
 				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Hediff_Death_X</hediffDef>
+					<severity>0.95</severity>
+				</li>
 				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
 					<targetHediff>Ebola</targetHediff>
 					<surstractValue>0.15</surstractValue>
@@ -948,6 +1016,10 @@
 			 <li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>MedicalDrink</hediffDef>
 					<severity>0.15</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Hediff_Death_X</hediffDef>
+					<severity>0.95</severity>
 				</li>
 				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
 					<targetHediff>Measles</targetHediff>
@@ -1001,6 +1073,10 @@
 					<hediffDef>MedicalDrink</hediffDef>
 					<severity>0.15</severity>
 				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Hediff_Death_X</hediffDef>
+					<severity>0.95</severity>
+				</li>
 				<li Class="SK.IngestionOutcomeDoer_SubstractHediffSeverity">
 					<targetHediff>Pneumonia</targetHediff>
 					<surstractValue>0.15</surstractValue>
@@ -1020,6 +1096,34 @@
 			
     	</comps>
 	</ThingDef>
+
+
+
+
+<HediffDef>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defName>Hediff_Death_X</defName>
+		<label>отказ органов от передозировки</label>
+		<labelNoun>отказ органов от передозировки</labelNoun>
+		<description>отказ органов</description>
+		<defaultLabelColor>(0,242,242)</defaultLabelColor>
+		<minSeverity>0</minSeverity>
+		<maxSeverity>1.01</maxSeverity>
+		<lethalSeverity>1.01</lethalSeverity>
+			<comps>
+				<li Class="HediffCompProperties_SeverityPerDay">
+					<severityPerDay>-0.1</severityPerDay>
+					<showHoursToRecover>true</showHoursToRecover>
+				</li>
+			</comps>
+		<stages>
+			<li>
+				<label>изначально-скрытый</label>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
+	</HediffDef>
+
 
 
 
