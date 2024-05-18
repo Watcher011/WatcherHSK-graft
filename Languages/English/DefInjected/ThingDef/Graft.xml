@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GraftBlood.label>Anti-infestation system</GraftBlood.label>
+  <GraftBlood.description>A system that contains a set of drugs aimed at suppressing pathogenic bacteria or fungi, eliminating infection</GraftBlood.description>
+
+  <pillsCommonCold.label>Cold tablets</pillsCommonCold.label>
+  <pillsCommonCold.description>Tablets for colds do not eliminate the influence of the virus, but significantly delay its development, suppressing symptoms by -25% of the progress of the disease (maybe even working).</pillsCommonCold.description>
+  <pillsCommonCold.ingestible.ingestCommandString>Drink {0}</pillsCommonCold.ingestible.ingestCommandString>
+  <pillsCommonCold.ingestible.ingestReportString>Drinks {0}.</pillsCommonCold.ingestible.ingestReportString>
+
+  <pillsMalari.label>Malaria tablets</pillsMalari.label>
+  <pillsMalari.description>Tablets for malaria do not eliminate the influence of the virus, but significantly delay its development, suppressing symptoms by -25% of the progress of the disease (maybe even working).</pillsMalari.description>
+  <pillsMalari.ingestible.ingestCommandString>Drink {0}</pillsMalari.ingestible.ingestCommandString>
+  <pillsMalari.ingestible.ingestReportString>Drinks {0}.</pillsMalari.ingestible.ingestReportString>
+
+  <pillsFlu.label>Flu pills</pillsFlu.label>
+  <pillsFlu.description>Flu tablets do not eliminate the influence of the virus, but significantly delay its development, suppressing symptoms by -25% of the progress of the disease (I hope that it is effective).</pillsFlu.description>
+  <pillsFlu.ingestible.ingestCommandString>Drink {0}</pillsFlu.ingestible.ingestCommandString>
+  <pillsFlu.ingestible.ingestReportString>Drinks {0}.</pillsFlu.ingestible.ingestReportString>
+
+  <pillsPlague.label>Plague tablets</pillsPlague.label>
+  <pillsPlague.description>Anti-plague tablets do not eliminate the influence of the virus, but significantly delay its development, suppressing symptoms by -25% of the progress of the disease (the expiration date is almost expired).</pillsPlague.description>
+  <pillsPlague.ingestible.ingestCommandString>Drink {0}</pillsPlague.ingestible.ingestCommandString>
+  <pillsPlague.ingestible.ingestReportString>Drinks {0}.</pillsPlague.ingestible.ingestReportString>
+
+  <pillsSleepingSickness.label>Sleeping sickness pills</pillsSleepingSickness.label>
+  <pillsSleepingSickness.description>Tablets for sleeping sickness do not eliminate the influence of the virus, but significantly delay its development by suppressing symptoms -25% of the progress of the disease (caffeine and adrenaline, they will definitely not let you sleep).</pillsSleepingSickness.description>
+  <pillsSleepingSickness.ingestible.ingestCommandString>Drink {0}</pillsSleepingSickness.ingestible.ingestCommandString>
+  <pillsSleepingSickness.ingestible.ingestReportString>Drinks {0}.</pillsSleepingSickness.ingestible.ingestReportString>
+
+  <pillsCoronavirus.label>Coronavirus tablets</pillsCoronavirus.label>
+  <pillsCoronavirus.description>Tablets for Coronovirus do not eliminate the influence of the virus, but significantly delay its development, suppressing symptoms -25% of the progress of the disease (Contains up to 10% nanobots).</pillsCoronavirus.description>
+  <pillsCoronavirus.ingestible.ingestCommandString>Drink {0}</pillsCoronavirus.ingestible.ingestCommandString>
+  <pillsCoronavirus.ingestible.ingestReportString>Drinks {0}.</pillsCoronavirus.ingestible.ingestReportString>
+
+  <pillsEbola.label>Ebola pills</pillsEbola.label>
+  <pillsEbola.description>Ebola pills do not eliminate the influence of the virus, but significantly delay its development, suppressing symptoms by -25% of the progress of the disease (where did you find that?).</pillsEbola.description>
+  <pillsEbola.ingestible.ingestCommandString>Drink {0}</pillsEbola.ingestible.ingestCommandString>
+  <pillsEbola.ingestible.ingestReportString>Drinks {0}.</pillsEbola.ingestible.ingestReportString>
+
+  <pillsMeasles.label>Tablets for measles</pillsMeasles.label>
+  <pillsMeasles.description>Tablets for measles do not eliminate the influence of the virus, but significantly delay its development, suppressing symptoms by -25% of the progress of the disease (this is treatable, right?).</pillsMeasles.description>
+  <pillsMeasles.ingestible.ingestCommandString>Drink {0}</pillsMeasles.ingestible.ingestCommandString>
+  <pillsMeasles.ingestible.ingestReportString>Drinks {0}.</pillsMeasles.ingestible.ingestReportString>
+
+  <pillsPneumonia.label>Tablets for Pneumonia</pillsPneumonia.label>
+  <pillsPneumonia.description>Pills for Pneumonia do not eliminate the influence of the virus, but significantly delay its development, suppressing symptoms by -25% of the progress of the disease (it’s safe, right?).</pillsPneumonia.description>
+  <pillsPneumonia.ingestible.ingestCommandString>Drink {0}</pillsPneumonia.ingestible.ingestCommandString>
+  <pillsPneumonia.ingestible.ingestReportString>Drinks {0}.</pillsPneumonia.ingestible.ingestReportString>
+
+  <primitivepillsCommonCold.label>Cold Potion</primitivepillsCommonCold.label>
+  <primitivepillsCommonCold.description>A potion for colds does not eliminate the influence of the virus, but significantly delays its development, suppressing symptoms - 15% of the progress of the disease (maybe even working).</primitivepillsCommonCold.description>
+  <primitivepillsCommonCold.ingestible.ingestCommandString>Drink {0}</primitivepillsCommonCold.ingestible.ingestCommandString>
+  <primitivepillsCommonCold.ingestible.ingestReportString>Drinks {0}.</primitivepillsCommonCold.ingestible.ingestReportString>
+
+  <primitivepillsMalari.label>Malaria potion</primitivepillsMalari.label>
+  <primitivepillsMalari.description>The potion for malaria does not eliminate the influence of the virus, but significantly delays its development, suppressing symptoms - 15% of the progress of the disease (maybe even working).</primitivepillsMalari.description>
+  <primitivepillsMalari.ingestible.ingestCommandString>Drink {0}</primitivepillsMalari.ingestible.ingestCommandString>
+  <primitivepillsMalari.ingestible.ingestReportString>Drinks {0}.</primitivepillsMalari.ingestible.ingestReportString>
+
+  <primitivepillsFlu.label>Flu potion</primitivepillsFlu.label>
+  <primitivepillsFlu.description>The flu potion does not eliminate the influence of the virus, but significantly delays its development by suppressing symptoms -15% of the progress of the disease (I hope it is effective).</primitivepillsFlu.description>
+  <primitivepillsFlu.ingestible.ingestCommandString>Drink {0}</primitivepillsFlu.ingestible.ingestCommandString>
+  <primitivepillsFlu.ingestible.ingestReportString>Drinks {0}.</primitivepillsFlu.ingestible.ingestReportString>
+
+  <primitivepillsPlague.label>Plague Potion</primitivepillsPlague.label>
+  <primitivepillsPlague.description>The plague potion does not eliminate the influence of the virus, but significantly delays its development, suppressing the symptoms -15% of the progress of the disease (the expiration date is almost expired).</primitivepillsPlague.description>
+  <primitivepillsPlague.ingestible.ingestCommandString>Drink {0}</primitivepillsPlague.ingestible.ingestCommandString>
+  <primitivepillsPlague.ingestible.ingestReportString>Drinks {0}.</primitivepillsPlague.ingestible.ingestReportString>
+
+  <primitivepillsSleepingSickness.label>Sleeping sickness potion</primitivepillsSleepingSickness.label>
+  <primitivepillsSleepingSickness.description>A potion for sleeping sickness, does not eliminate the influence of the virus, but significantly delays its development by suppressing symptoms -15% of the progress of the disease (caffeine and adrenaline, they will definitely not let you sleep).</primitivepillsSleepingSickness.description>
+  <primitivepillsSleepingSickness.ingestible.ingestCommandString>Drink {0}</primitivepillsSleepingSickness.ingestible.ingestCommandString>
+  <primitivepillsSleepingSickness.ingestible.ingestReportString>Drinks {0}.</primitivepillsSleepingSickness.ingestible.ingestReportString>
+
+  <primitivepillsCoronavirus.label>Coronavirus Potion</primitivepillsCoronavirus.label>
+  <primitivepillsCoronavirus.description>Potion for Coronovirus, does not eliminate the influence of the virus, but significantly delays its development, suppressing symptoms -15% of the progress of the disease (Contains up to 10% nanobots).</primitivepillsCoronavirus.description>
+  <primitivepillsCoronavirus.ingestible.ingestCommandString>Drink {0}</primitivepillsCoronavirus.ingestible.ingestCommandString>
+  <primitivepillsCoronavirus.ingestible.ingestReportString>Drinks {0}.</primitivepillsCoronavirus.ingestible.ingestReportString>
+
+  <primitivepillsEbola.label>Ebola potion</primitivepillsEbola.label>
+  <primitivepillsEbola.description>The Ebola potion does not eliminate the influence of the virus, but significantly delays its development by suppressing symptoms - 15% of the progress of the disease (where did you find that?).</primitivepillsEbola.description>
+  <primitivepillsEbola.ingestible.ingestCommandString>Drink {0}</primitivepillsEbola.ingestible.ingestCommandString>
+  <primitivepillsEbola.ingestible.ingestReportString>Drinks {0}.</primitivepillsEbola.ingestible.ingestReportString>
+
+  <primitivepillsMeasles.label>Corey's Potion</primitivepillsMeasles.label>
+  <primitivepillsMeasles.description>The potion for Measles does not eliminate the influence of the virus, but significantly delays its development, suppressing symptoms by -15% of the progress of the disease (this can be treated, right?).</primitivepillsMeasles.description>
+  <primitivepillsMeasles.ingestible.ingestCommandString>Drink {0}</primitivepillsMeasles.ingestible.ingestCommandString>
+  <primitivepillsMeasles.ingestible.ingestReportString>Drinks {0}.</primitivepillsMeasles.ingestible.ingestReportString>
+
+  <primitivepillsPneumonia.label>Potion for Pneumonia</primitivepillsPneumonia.label>
+  <primitivepillsPneumonia.description>The potion for Pneumonia does not eliminate the influence of the virus, but significantly delays its development, suppressing symptoms by -15% of the progress of the disease (it’s safe, right?).</primitivepillsPneumonia.description>
+  <primitivepillsPneumonia.ingestible.ingestCommandString>Drink {0}</primitivepillsPneumonia.ingestible.ingestCommandString>
+  <primitivepillsPneumonia.ingestible.ingestReportString>Drinks {0}.</primitivepillsPneumonia.ingestible.ingestReportString>
+
+
+</LanguageData>

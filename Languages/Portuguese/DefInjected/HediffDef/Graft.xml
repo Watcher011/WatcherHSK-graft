@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GraftWoundInfectionConsumed.label>Purificação de sangue</GraftWoundInfectionConsumed.label>
+  <GraftWoundInfectionConsumed.description>Os anticorpos atacam as células do patógeno, causando fraqueza e febre</GraftWoundInfectionConsumed.description>
+  <GraftWoundInfectionConsumed.stages.0.label>withdrawal</GraftWoundInfectionConsumed.stages.0.label>
+
+
+</LanguageData>

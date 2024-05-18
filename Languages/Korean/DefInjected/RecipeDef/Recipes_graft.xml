@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakepillsMalari.label>말라리아 예방약 만들기</MakepillsMalari.label>
+  <MakepillsMalari.description>말라리아 예방약을 3회 복용하세요..</MakepillsMalari.description>
+  <MakepillsMalari.jobString>말라리아 예방약을 만듭니다</MakepillsMalari.jobString>
+
+  <MakepillsFlu.label>독감약 만들기</MakepillsFlu.label>
+  <MakepillsFlu.description>독감약 3알을 만드세요..</MakepillsFlu.description>
+  <MakepillsFlu.jobString>독감약을 만든다</MakepillsFlu.jobString>
+
+  <MakepillsPlague.label>전염병 약 만들기</MakepillsPlague.label>
+  <MakepillsPlague.description>전염병 정제를 3개 만드세요..</MakepillsPlague.description>
+  <MakepillsPlague.jobString>알약을 만든다</MakepillsPlague.jobString>
+
+  <MakepillsSleepingSickness.label>수면병 약을 만들어 보세요</MakepillsSleepingSickness.label>
+  <MakepillsSleepingSickness.description>수면병 약을 3회 복용하세요.</MakepillsSleepingSickness.description>
+  <MakepillsSleepingSickness.jobString>알약을 만든다</MakepillsSleepingSickness.jobString>
+
+  <MakepillsCoronavirus.label>코로나바이러스 알약 만들기</MakepillsCoronavirus.label>
+  <MakepillsCoronavirus.description>코로나바이러스용 정제를 3회 복용하세요.</MakepillsCoronavirus.description>
+  <MakepillsCoronavirus.jobString>알약을 만든다</MakepillsCoronavirus.jobString>
+
+  <MakepillsEbola.label>에볼라 알약 만들기</MakepillsEbola.label>
+  <MakepillsEbola.description>에볼라 알약을 3개 만드세요.</MakepillsEbola.description>
+  <MakepillsEbola.jobString>알약을 만든다</MakepillsEbola.jobString>
+
+  <MakepillsMeasles.label>홍역 약 만들기</MakepillsMeasles.label>
+  <MakepillsMeasles.description>홍역용 정제를 3회 복용하세요.</MakepillsMeasles.description>
+  <MakepillsMeasles.jobString>알약을 만든다</MakepillsMeasles.jobString>
+
+  <MakepillsPneumonia.label>폐렴 약 만들기</MakepillsPneumonia.label>
+  <MakepillsPneumonia.description>폐렴용 정제를 3회 복용하세요.</MakepillsPneumonia.description>
+  <MakepillsPneumonia.jobString>알약을 만든다</MakepillsPneumonia.jobString>
+
+  <MakeGraftWoundInfection.label>감염 방지 시스템을 구축하세요.</MakeGraftWoundInfection.label>
+  <MakeGraftWoundInfection.description>혈액 정화 시스템을 3세트 만드세요.</MakeGraftWoundInfection.description>
+  <MakeGraftWoundInfection.jobString>세트를 만든다</MakeGraftWoundInfection.jobString>
+
+  <MakeprimitivepillsCommonCold.label>차가운 물약을 만들어라</MakeprimitivepillsCommonCold.label>
+  <MakeprimitivepillsCommonCold.description>차가운 물약을 3회 만드세요.</MakeprimitivepillsCommonCold.description>
+  <MakeprimitivepillsCommonCold.jobString>차가운 물약을 만든다</MakeprimitivepillsCommonCold.jobString>
+
+  <MakeprimitivepillsMalari.label>말라리아 약을 만들어 보세요</MakeprimitivepillsMalari.label>
+  <MakeprimitivepillsMalari.description>말라리아 약을 3회 만드세요.</MakeprimitivepillsMalari.description>
+  <MakeprimitivepillsMalari.jobString>말라리아 약을 만든다</MakeprimitivepillsMalari.jobString>
+
+  <MakeprimitivepillsFlu.label>독감약 만들기</MakeprimitivepillsFlu.label>
+  <MakeprimitivepillsFlu.description>독감 약을 3개 만드세요.</MakeprimitivepillsFlu.description>
+  <MakeprimitivepillsFlu.jobString>독감에 대한 약을 만듭니다</MakeprimitivepillsFlu.jobString>
+
+  <MakeprimitivepillsPlague.label>역병 물약을 만드세요</MakeprimitivepillsPlague.label>
+  <MakeprimitivepillsPlague.description>전염병 물약을 3개 만드세요..</MakeprimitivepillsPlague.description>
+  <MakeprimitivepillsPlague.jobString>역병 물약을 만든다</MakeprimitivepillsPlague.jobString>
+
+  <MakeprimitivepillsSleepingSickness.label>수면병 약을 만들어 보세요</MakeprimitivepillsSleepingSickness.label>
+  <MakeprimitivepillsSleepingSickness.description>수면병 약을 3회 만드세요.</MakeprimitivepillsSleepingSickness.description>
+  <MakeprimitivepillsSleepingSickness.jobString>물약을 만든다</MakeprimitivepillsSleepingSickness.jobString>
+
+  <MakeprimitivepillsCoronavirus.label>코로나바이러스에 대한 약을 만들어 보세요</MakeprimitivepillsCoronavirus.label>
+  <MakeprimitivepillsCoronavirus.description>코로나바이러스용 약을 3회 만드세요.</MakeprimitivepillsCoronavirus.description>
+  <MakeprimitivepillsCoronavirus.jobString>물약을 만든다</MakeprimitivepillsCoronavirus.jobString>
+
+  <MakeprimitivepillsEbola.label>에볼라 약 만들기</MakeprimitivepillsEbola.label>
+  <MakeprimitivepillsEbola.description>에볼라 약을 3회 만드세요.</MakeprimitivepillsEbola.description>
+  <MakeprimitivepillsEbola.jobString>물약을 만든다</MakeprimitivepillsEbola.jobString>
+
+  <MakeprimitivepillsMeasles.label>코리를 위한 물약 만들기</MakeprimitivepillsMeasles.label>
+  <MakeprimitivepillsMeasles.description>홍역용 물약을 3회 만드세요.</MakeprimitivepillsMeasles.description>
+  <MakeprimitivepillsMeasles.jobString>물약을 만든다</MakeprimitivepillsMeasles.jobString>
+
+  <MakeprimitivepillsPneumonia.label>폐렴에 대한 물약 만들기</MakeprimitivepillsPneumonia.label>
+  <MakeprimitivepillsPneumonia.description>폐렴용 물약을 3회 만드세요.</MakeprimitivepillsPneumonia.description>
+  <MakeprimitivepillsPneumonia.jobString>물약을 만든다</MakeprimitivepillsPneumonia.jobString>
+
+
+</LanguageData>

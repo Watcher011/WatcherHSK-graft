@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakepillsMalari.label>Make anti-malaria pills</MakepillsMalari.label>
+  <MakepillsMalari.description>Make anti-malaria tablets. 3 doses.</MakepillsMalari.description>
+  <MakepillsMalari.jobString>Makes anti-malaria pills</MakepillsMalari.jobString>
+
+  <MakepillsFlu.label>Make flu pills</MakepillsFlu.label>
+  <MakepillsFlu.description>Make flu tablets. 3 doses.</MakepillsFlu.description>
+  <MakepillsFlu.jobString>Makes flu pills</MakepillsFlu.jobString>
+
+  <MakepillsPlague.label>Make plague pills</MakepillsPlague.label>
+  <MakepillsPlague.description>Make plague tablets. 3 doses.</MakepillsPlague.description>
+  <MakepillsPlague.jobString>Makes pills</MakepillsPlague.jobString>
+
+  <MakepillsSleepingSickness.label>Make pills for sleeping sickness</MakepillsSleepingSickness.label>
+  <MakepillsSleepingSickness.description>Make tablets for sleeping sickness. 3 doses.</MakepillsSleepingSickness.description>
+  <MakepillsSleepingSickness.jobString>Makes pills</MakepillsSleepingSickness.jobString>
+
+  <MakepillsCoronavirus.label>Make Coronovirus pills</MakepillsCoronavirus.label>
+  <MakepillsCoronavirus.description>Make tablets for coronavirus. 3 doses.</MakepillsCoronavirus.description>
+  <MakepillsCoronavirus.jobString>Makes pills</MakepillsCoronavirus.jobString>
+
+  <MakepillsEbola.label>Make Ebola pills</MakepillsEbola.label>
+  <MakepillsEbola.description>Make Ebola pills. 3 doses.</MakepillsEbola.description>
+  <MakepillsEbola.jobString>Makes pills</MakepillsEbola.jobString>
+
+  <MakepillsMeasles.label>Make pills for measles</MakepillsMeasles.label>
+  <MakepillsMeasles.description>Make tablets for Measles. 3 doses.</MakepillsMeasles.description>
+  <MakepillsMeasles.jobString>Makes pills</MakepillsMeasles.jobString>
+
+  <MakepillsPneumonia.label>Make pills for Pneumonia</MakepillsPneumonia.label>
+  <MakepillsPneumonia.description>Make pills for Pneumonia. 3 doses.</MakepillsPneumonia.description>
+  <MakepillsPneumonia.jobString>Makes pills</MakepillsPneumonia.jobString>
+
+  <MakeGraftWoundInfection.label>Create an anti-infestation system</MakeGraftWoundInfection.label>
+  <MakeGraftWoundInfection.description>Make a blood purification system. 3 sets.</MakeGraftWoundInfection.description>
+  <MakeGraftWoundInfection.jobString>Makes a set</MakeGraftWoundInfection.jobString>
+
+  <MakeprimitivepillsCommonCold.label>Make a cold potion</MakeprimitivepillsCommonCold.label>
+  <MakeprimitivepillsCommonCold.description>Make a cold potion. 3 doses.</MakeprimitivepillsCommonCold.description>
+  <MakeprimitivepillsCommonCold.jobString>Makes a cold potion</MakeprimitivepillsCommonCold.jobString>
+
+  <MakeprimitivepillsMalari.label>Make a potion for malaria</MakeprimitivepillsMalari.label>
+  <MakeprimitivepillsMalari.description>Make a potion for malaria. 3 doses.</MakeprimitivepillsMalari.description>
+  <MakeprimitivepillsMalari.jobString>Makes a potion for malaria</MakeprimitivepillsMalari.jobString>
+
+  <MakeprimitivepillsFlu.label>Make a flu potion</MakeprimitivepillsFlu.label>
+  <MakeprimitivepillsFlu.description>Make a flu potion. 3 doses.</MakeprimitivepillsFlu.description>
+  <MakeprimitivepillsFlu.jobString>Makes a potion for the flu</MakeprimitivepillsFlu.jobString>
+
+  <MakeprimitivepillsPlague.label>Make a plague potion</MakeprimitivepillsPlague.label>
+  <MakeprimitivepillsPlague.description>Make a potion against plague. 3 doses.</MakeprimitivepillsPlague.description>
+  <MakeprimitivepillsPlague.jobString>Makes a plague potion</MakeprimitivepillsPlague.jobString>
+
+  <MakeprimitivepillsSleepingSickness.label>Make a potion for sleeping sickness</MakeprimitivepillsSleepingSickness.label>
+  <MakeprimitivepillsSleepingSickness.description>Make a potion for sleeping sickness. 3 doses.</MakeprimitivepillsSleepingSickness.description>
+  <MakeprimitivepillsSleepingSickness.jobString>Makes a potion</MakeprimitivepillsSleepingSickness.jobString>
+
+  <MakeprimitivepillsCoronavirus.label>Make a potion for Coronavirus</MakeprimitivepillsCoronavirus.label>
+  <MakeprimitivepillsCoronavirus.description>Make a potion for coronavirus. 3 doses.</MakeprimitivepillsCoronavirus.description>
+  <MakeprimitivepillsCoronavirus.jobString>Makes a potion</MakeprimitivepillsCoronavirus.jobString>
+
+  <MakeprimitivepillsEbola.label>Make an Ebola potion</MakeprimitivepillsEbola.label>
+  <MakeprimitivepillsEbola.description>Make an Ebola potion. 3 doses.</MakeprimitivepillsEbola.description>
+  <MakeprimitivepillsEbola.jobString>Makes a potion</MakeprimitivepillsEbola.jobString>
+
+  <MakeprimitivepillsMeasles.label>Make a potion for Cory</MakeprimitivepillsMeasles.label>
+  <MakeprimitivepillsMeasles.description>Make a potion for Measles. 3 doses.</MakeprimitivepillsMeasles.description>
+  <MakeprimitivepillsMeasles.jobString>Makes a potion</MakeprimitivepillsMeasles.jobString>
+
+  <MakeprimitivepillsPneumonia.label>Make a potion for Pneumonia</MakeprimitivepillsPneumonia.label>
+  <MakeprimitivepillsPneumonia.description>Make a potion for Pneumonia. 3 doses.</MakeprimitivepillsPneumonia.description>
+  <MakeprimitivepillsPneumonia.jobString>Makes a potion</MakeprimitivepillsPneumonia.jobString>
+
+
+</LanguageData>

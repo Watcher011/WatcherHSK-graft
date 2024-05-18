@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GraftBlood.label>감염 방지 시스템</GraftBlood.label>
+  <GraftBlood.description>병원성 세균이나 곰팡이를 억제하고 감염을 제거하기 위한 일련의 약물이 포함된 시스템입니다.</GraftBlood.description>
+
+  <pillsCommonCold.label>감기약</pillsCommonCold.label>
+  <pillsCommonCold.description>감기약은 바이러스의 영향을 제거하지는 않지만 바이러스의 발달을 상당히 지연시켜 질병 진행의 -25%까지 증상을 억제합니다(효과가 있을 수도 있음).</pillsCommonCold.description>
+  <pillsCommonCold.ingestible.ingestCommandString>마시다 {0}</pillsCommonCold.ingestible.ingestCommandString>
+  <pillsCommonCold.ingestible.ingestReportString>음료수 {0}.</pillsCommonCold.ingestible.ingestReportString>
+
+  <pillsMalari.label>말라리아 정제</pillsMalari.label>
+  <pillsMalari.description>말라리아 정제는 바이러스의 영향을 제거하지는 않지만 바이러스의 발달을 상당히 지연시켜 질병 진행의 -25%까지 증상을 억제합니다(효과가 있을 수도 있음).</pillsMalari.description>
+  <pillsMalari.ingestible.ingestCommandString>마시다 {0}</pillsMalari.ingestible.ingestCommandString>
+  <pillsMalari.ingestible.ingestReportString>음료수 {0}.</pillsMalari.ingestible.ingestReportString>
+
+  <pillsFlu.label>독감 약</pillsFlu.label>
+  <pillsFlu.description>독감약은 바이러스의 영향을 제거하지는 않지만 발병을 상당히 지연시켜 질병 진행을 -25%까지 억제합니다(효과가 있기를 바랍니다).</pillsFlu.description>
+  <pillsFlu.ingestible.ingestCommandString>마시다 {0}</pillsFlu.ingestible.ingestCommandString>
+  <pillsFlu.ingestible.ingestReportString>음료수 {0}.</pillsFlu.ingestible.ingestReportString>
+
+  <pillsPlague.label>역병 정제</pillsPlague.label>
+  <pillsPlague.description>항페스트 정제는 바이러스의 영향을 제거하지는 않지만 발달을 상당히 지연시켜 질병 진행의 -25%까지 증상을 억제합니다(유효기간이 거의 만료됨).</pillsPlague.description>
+  <pillsPlague.ingestible.ingestCommandString>마시다 {0}</pillsPlague.ingestible.ingestCommandString>
+  <pillsPlague.ingestible.ingestReportString>음료수 {0}.</pillsPlague.ingestible.ingestReportString>
+
+  <pillsSleepingSickness.label>수면병약</pillsSleepingSickness.label>
+  <pillsSleepingSickness.description>수면병 정제는 바이러스의 영향을 제거하지는 않지만 발달을 상당히 지연시켜 질병 진행의 -25 %까지 증상을 억제합니다 (카페인과 아드레날린은 확실히 잠을 자지 못하게합니다)</pillsSleepingSickness.description>
+  <pillsSleepingSickness.ingestible.ingestCommandString>마시다 {0}</pillsSleepingSickness.ingestible.ingestCommandString>
+  <pillsSleepingSickness.ingestible.ingestReportString>음료수 {0}.</pillsSleepingSickness.ingestible.ingestReportString>
+
+  <pillsCoronavirus.label>코로나바이러스 태블릿</pillsCoronavirus.label>
+  <pillsCoronavirus.description>코로노바이러스 정제는 바이러스의 영향을 제거하지는 않지만 바이러스의 발달을 상당히 지연시켜 증상을 질병 진행의 -25% 억제합니다(나노봇 최대 10% 포함).</pillsCoronavirus.description>
+  <pillsCoronavirus.ingestible.ingestCommandString>마시다 {0}</pillsCoronavirus.ingestible.ingestCommandString>
+  <pillsCoronavirus.ingestible.ingestReportString>음료수 {0}.</pillsCoronavirus.ingestible.ingestReportString>
+
+  <pillsEbola.label>에볼라 약</pillsEbola.label>
+  <pillsEbola.description>에볼라 알약은 바이러스의 영향을 제거하지는 않지만 바이러스의 발달을 상당히 지연시켜 질병 진행의 -25%까지 증상을 억제합니다(어디에서 찾았습니까?).</pillsEbola.description>
+  <pillsEbola.ingestible.ingestCommandString>마시다 {0}</pillsEbola.ingestible.ingestCommandString>
+  <pillsEbola.ingestible.ingestReportString>음료수 {0}.</pillsEbola.ingestible.ingestReportString>
+
+  <pillsMeasles.label>홍역용 정제</pillsMeasles.label>
+  <pillsMeasles.description>홍역 정제는 바이러스의 영향을 제거하지는 않지만 발달을 상당히 지연시켜 질병 진행의 -25 %까지 증상을 억제합니다 (치료 가능합니까?).</pillsMeasles.description>
+  <pillsMeasles.ingestible.ingestCommandString>마시다 {0}</pillsMeasles.ingestible.ingestCommandString>
+  <pillsMeasles.ingestible.ingestReportString>음료수 {0}.</pillsMeasles.ingestible.ingestReportString>
+
+  <pillsPneumonia.label>폐렴용 정제</pillsPneumonia.label>
+  <pillsPneumonia.description>폐렴약은 바이러스의 영향을 제거하지는 않지만 바이러스의 발달을 상당히 지연시켜 질병 진행의 -25%까지 증상을 억제합니다(안전합니다. 그렇죠?).</pillsPneumonia.description>
+  <pillsPneumonia.ingestible.ingestCommandString>마시다 {0}</pillsPneumonia.ingestible.ingestCommandString>
+  <pillsPneumonia.ingestible.ingestReportString>음료수 {0}.</pillsPneumonia.ingestible.ingestReportString>
+
+  <primitivepillsCommonCold.label>차가운 물약</primitivepillsCommonCold.label>
+  <primitivepillsCommonCold.description>감기약은 바이러스의 영향을 제거하지는 않지만 발달을 상당히 지연시켜 증상을 억제합니다. 질병 진행의 15%(효과가 있을 수도 있음)입니다.</primitivepillsCommonCold.description>
+  <primitivepillsCommonCold.ingestible.ingestCommandString>마시다 {0}</primitivepillsCommonCold.ingestible.ingestCommandString>
+  <primitivepillsCommonCold.ingestible.ingestReportString>음료수 {0}.</primitivepillsCommonCold.ingestible.ingestReportString>
+
+  <primitivepillsMalari.label>말라리아 물약</primitivepillsMalari.label>
+  <primitivepillsMalari.description>말라리아 약은 바이러스의 영향을 제거하지는 않지만 발병을 상당히 지연시켜 증상을 억제합니다. 질병 진행의 15%(효과가 있을 수도 있음)입니다.</primitivepillsMalari.description>
+  <primitivepillsMalari.ingestible.ingestCommandString>마시다 {0}</primitivepillsMalari.ingestible.ingestCommandString>
+  <primitivepillsMalari.ingestible.ingestReportString>음료수 {0}.</primitivepillsMalari.ingestible.ingestReportString>
+
+  <primitivepillsFlu.label>독감약</primitivepillsFlu.label>
+  <primitivepillsFlu.description>독감약은 바이러스의 영향을 제거하지는 않지만 증상을 질병 진행의 -15% 억제하여 발병을 크게 지연시킵니다(효과가 있기를 바랍니다).</primitivepillsFlu.description>
+  <primitivepillsFlu.ingestible.ingestCommandString>마시다 {0}</primitivepillsFlu.ingestible.ingestCommandString>
+  <primitivepillsFlu.ingestible.ingestReportString>음료수 {0}.</primitivepillsFlu.ingestible.ingestReportString>
+
+  <primitivepillsPlague.label>역병 물약</primitivepillsPlague.label>
+  <primitivepillsPlague.description>전염병 물약은 바이러스의 영향을 제거하지는 않지만 발달을 크게 지연시켜 질병 진행의 -15 % (유효 기간이 거의 만료 됨)의 증상을 억제합니다.</primitivepillsPlague.description>
+  <primitivepillsPlague.ingestible.ingestCommandString>마시다 {0}</primitivepillsPlague.ingestible.ingestCommandString>
+  <primitivepillsPlague.ingestible.ingestReportString>음료수 {0}.</primitivepillsPlague.ingestible.ingestReportString>
+
+  <primitivepillsSleepingSickness.label>수면병 약</primitivepillsSleepingSickness.label>
+  <primitivepillsSleepingSickness.description>수면병 약은 바이러스의 영향을 제거하지는 않지만 질병 진행의 -15 % 증상을 억제하여 발달을 크게 지연시킵니다 (카페인과 아드레날린은 확실히 잠을 자지 못하게합니다).</primitivepillsSleepingSickness.description>
+  <primitivepillsSleepingSickness.ingestible.ingestCommandString>마시다 {0}</primitivepillsSleepingSickness.ingestible.ingestCommandString>
+  <primitivepillsSleepingSickness.ingestible.ingestReportString>음료수 {0}.</primitivepillsSleepingSickness.ingestible.ingestReportString>
+
+  <primitivepillsCoronavirus.label>코로나바이러스 물약</primitivepillsCoronavirus.label>
+  <primitivepillsCoronavirus.description>코로나바이러스 물약은 바이러스의 영향을 제거하지는 않지만 바이러스의 발달을 상당히 지연시켜 증상을 질병 진행의 -15% 억제합니다(나노봇 최대 10% 포함).</primitivepillsCoronavirus.description>
+  <primitivepillsCoronavirus.ingestible.ingestCommandString>마시다 {0}</primitivepillsCoronavirus.ingestible.ingestCommandString>
+  <primitivepillsCoronavirus.ingestible.ingestReportString>음료수 {0}.</primitivepillsCoronavirus.ingestible.ingestReportString>
+
+  <primitivepillsEbola.label>에볼라 약</primitivepillsEbola.label>
+  <primitivepillsEbola.description>에볼라 물약은 바이러스의 영향을 제거하지는 않지만 증상을 질병 진행의 -15% 억제하여 발병을 크게 지연시킵니다. (그걸 어디서 찾았나요?).</primitivepillsEbola.description>
+  <primitivepillsEbola.ingestible.ingestCommandString>마시다 {0}</primitivepillsEbola.ingestible.ingestCommandString>
+  <primitivepillsEbola.ingestible.ingestReportString>음료수 {0}.</primitivepillsEbola.ingestible.ingestReportString>
+
+  <primitivepillsMeasles.label>코리의 물약</primitivepillsMeasles.label>
+  <primitivepillsMeasles.description>홍역 약은 바이러스의 영향을 제거하지는 않지만 발달을 상당히 지연시켜 질병 진행의 -15 %까지 증상을 억제합니다 (이것은 치료가 가능합니까?).</primitivepillsMeasles.description>
+  <primitivepillsMeasles.ingestible.ingestCommandString>마시다 {0}</primitivepillsMeasles.ingestible.ingestCommandString>
+  <primitivepillsMeasles.ingestible.ingestReportString>음료수 {0}.</primitivepillsMeasles.ingestible.ingestReportString>
+
+  <primitivepillsPneumonia.label>폐렴에 대한 물약</primitivepillsPneumonia.label>
+  <primitivepillsPneumonia.description>폐렴약은 바이러스의 영향을 제거하지는 않지만 발병을 상당히 지연시켜 질병 진행의 -15%만큼 증상을 억제합니다(안전합니다. 그렇죠?).</primitivepillsPneumonia.description>
+  <primitivepillsPneumonia.ingestible.ingestCommandString>마시다 {0}</primitivepillsPneumonia.ingestible.ingestCommandString>
+  <primitivepillsPneumonia.ingestible.ingestReportString>음료수 {0}.</primitivepillsPneumonia.ingestible.ingestReportString>
+
+
+</LanguageData>

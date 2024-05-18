@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GraftWoundInfectionConsumed.label>혈액 정화</GraftWoundInfectionConsumed.label>
+  <GraftWoundInfectionConsumed.description>항체가 병원체의 세포를 공격하여 쇠약과 발열을 일으킵니다.</GraftWoundInfectionConsumed.description>
+  <GraftWoundInfectionConsumed.stages.0.label>withdrawal</GraftWoundInfectionConsumed.stages.0.label>
+
+
+</LanguageData>

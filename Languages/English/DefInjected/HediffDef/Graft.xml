@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GraftWoundInfectionConsumed.label>Blood purification</GraftWoundInfectionConsumed.label>
+  <GraftWoundInfectionConsumed.description>Antibodies attack the pathogen's cells, causing weakness and fever</GraftWoundInfectionConsumed.description>
+  <GraftWoundInfectionConsumed.stages.0.label>withdrawal</GraftWoundInfectionConsumed.stages.0.label>
+
+
+</LanguageData>

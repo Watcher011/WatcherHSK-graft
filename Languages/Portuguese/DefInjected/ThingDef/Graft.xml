@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GraftBlood.label>Sistema anti-infestação</GraftBlood.label>
+  <GraftBlood.description>Sistema que contém um conjunto de medicamentos destinados a suprimir bactérias ou fungos patogênicos, eliminando infecções</GraftBlood.description>
+
+  <pillsCommonCold.label>Comprimidos para resfriado</pillsCommonCold.label>
+  <pillsCommonCold.description>Os comprimidos para resfriados não eliminam a influência do vírus, mas atrasam significativamente o seu desenvolvimento, suprimindo os sintomas em -25% do progresso da doença (talvez até funcionando).</pillsCommonCold.description>
+  <pillsCommonCold.ingestible.ingestCommandString>Bebida {0}</pillsCommonCold.ingestible.ingestCommandString>
+  <pillsCommonCold.ingestible.ingestReportString>Bebidas {0}.</pillsCommonCold.ingestible.ingestReportString>
+
+  <pillsMalari.label>Comprimidos contra malária</pillsMalari.label>
+  <pillsMalari.description>Os comprimidos para a malária não eliminam a influência do vírus, mas atrasam significativamente o seu desenvolvimento, suprimindo os sintomas em -25% do progresso da doença (talvez até funcionando).</pillsMalari.description>
+  <pillsMalari.ingestible.ingestCommandString>Bebida {0}</pillsMalari.ingestible.ingestCommandString>
+  <pillsMalari.ingestible.ingestReportString>Bebidas {0}.</pillsMalari.ingestible.ingestReportString>
+
+  <pillsFlu.label>Comprimidos para gripe</pillsFlu.label>
+  <pillsFlu.description>Os comprimidos contra a gripe não eliminam a influência do vírus, mas atrasam significativamente o seu desenvolvimento, suprimindo os sintomas em -25% do progresso da doença (espero que seja eficaz).</pillsFlu.description>
+  <pillsFlu.ingestible.ingestCommandString>Bebida {0}</pillsFlu.ingestible.ingestCommandString>
+  <pillsFlu.ingestible.ingestReportString>Bebidas {0}.</pillsFlu.ingestible.ingestReportString>
+
+  <pillsPlague.label>Comprimidos de peste</pillsPlague.label>
+  <pillsPlague.description>Os comprimidos anti-peste não eliminam a influência do vírus, mas atrasam significativamente o seu desenvolvimento, suprimindo os sintomas em -25% do progresso da doença (o prazo de validade está quase expirado).</pillsPlague.description>
+  <pillsPlague.ingestible.ingestCommandString>Bebida {0}</pillsPlague.ingestible.ingestCommandString>
+  <pillsPlague.ingestible.ingestReportString>Bebidas {0}.</pillsPlague.ingestible.ingestReportString>
+
+  <pillsSleepingSickness.label>Comprimidos para a doença do sono</pillsSleepingSickness.label>
+  <pillsSleepingSickness.description>Os comprimidos para a doença do sono não eliminam a influência do vírus, mas atrasam significativamente o seu desenvolvimento, suprimindo os sintomas em -25% do progresso da doença (cafeína e adrenalina, definitivamente não vão deixar você dormir).</pillsSleepingSickness.description>
+  <pillsSleepingSickness.ingestible.ingestCommandString>Bebida {0}</pillsSleepingSickness.ingestible.ingestCommandString>
+  <pillsSleepingSickness.ingestible.ingestReportString>Bebidas {0}.</pillsSleepingSickness.ingestible.ingestReportString>
+
+  <pillsCoronavirus.label>Comprimidos de coronavírus</pillsCoronavirus.label>
+  <pillsCoronavirus.description>Os comprimidos para Coronovírus não eliminam a influência do vírus, mas atrasam significativamente o seu desenvolvimento, suprimindo os sintomas -25% do progresso da doença (contém até 10% de nanobots).</pillsCoronavirus.description>
+  <pillsCoronavirus.ingestible.ingestCommandString>Bebida {0}</pillsCoronavirus.ingestible.ingestCommandString>
+  <pillsCoronavirus.ingestible.ingestReportString>Bebidas {0}.</pillsCoronavirus.ingestible.ingestReportString>
+
+  <pillsEbola.label>Comprimidos de ebola</pillsEbola.label>
+  <pillsEbola.description>As pílulas de Ebola não eliminam a influência do vírus, mas atrasam significativamente o seu desenvolvimento, suprimindo os sintomas em -25% do progresso da doença (onde você descobriu isso?).</pillsEbola.description>
+  <pillsEbola.ingestible.ingestCommandString>Bebida {0}</pillsEbola.ingestible.ingestCommandString>
+  <pillsEbola.ingestible.ingestReportString>Bebidas {0}.</pillsEbola.ingestible.ingestReportString>
+
+  <pillsMeasles.label>Comprimidos para sarampo</pillsMeasles.label>
+  <pillsMeasles.description>Os comprimidos para o sarampo não eliminam a influência do vírus, mas atrasam significativamente o seu desenvolvimento, suprimindo os sintomas em -25% do progresso da doença (isso é tratável, certo?).</pillsMeasles.description>
+  <pillsMeasles.ingestible.ingestCommandString>Bebida {0}</pillsMeasles.ingestible.ingestCommandString>
+  <pillsMeasles.ingestible.ingestReportString>Bebidas {0}.</pillsMeasles.ingestible.ingestReportString>
+
+  <pillsPneumonia.label>Comprimidos para pneumonia</pillsPneumonia.label>
+  <pillsPneumonia.description>Os comprimidos para Pneumonia não eliminam a influência do vírus, mas atrasam significativamente o seu desenvolvimento, suprimindo os sintomas em -25% do progresso da doença (é seguro, certo?).</pillsPneumonia.description>
+  <pillsPneumonia.ingestible.ingestCommandString>Bebida {0}</pillsPneumonia.ingestible.ingestCommandString>
+  <pillsPneumonia.ingestible.ingestReportString>Bebidas {0}.</pillsPneumonia.ingestible.ingestReportString>
+
+  <primitivepillsCommonCold.label>Poção Fria</primitivepillsCommonCold.label>
+  <primitivepillsCommonCold.description>Uma poção para resfriados não elimina a influência do vírus, mas retarda significativamente seu desenvolvimento, suprimindo os sintomas - 15% do progresso da doença (talvez até funcionando).</primitivepillsCommonCold.description>
+  <primitivepillsCommonCold.ingestible.ingestCommandString>Bebida {0}</primitivepillsCommonCold.ingestible.ingestCommandString>
+  <primitivepillsCommonCold.ingestible.ingestReportString>Bebidas {0}.</primitivepillsCommonCold.ingestible.ingestReportString>
+
+  <primitivepillsMalari.label>Poção contra malária</primitivepillsMalari.label>
+  <primitivepillsMalari.description>A poção para a malária não elimina a influência do vírus, mas atrasa significativamente o seu desenvolvimento, suprimindo os sintomas - 15% do progresso da doença (talvez até funcione).</primitivepillsMalari.description>
+  <primitivepillsMalari.ingestible.ingestCommandString>Bebida {0}</primitivepillsMalari.ingestible.ingestCommandString>
+  <primitivepillsMalari.ingestible.ingestReportString>Bebidas {0}.</primitivepillsMalari.ingestible.ingestReportString>
+
+  <primitivepillsFlu.label>Poção para gripe</primitivepillsFlu.label>
+  <primitivepillsFlu.description>A poção da gripe não elimina a influência do vírus, mas atrasa significativamente o seu desenvolvimento, suprimindo os sintomas -15% do progresso da doença (espero que seja eficaz).</primitivepillsFlu.description>
+  <primitivepillsFlu.ingestible.ingestCommandString>Bebida {0}</primitivepillsFlu.ingestible.ingestCommandString>
+  <primitivepillsFlu.ingestible.ingestReportString>Bebidas {0}.</primitivepillsFlu.ingestible.ingestReportString>
+
+  <primitivepillsPlague.label>Poção da Praga</primitivepillsPlague.label>
+  <primitivepillsPlague.description>A poção da peste não elimina a influência do vírus, mas atrasa significativamente o seu desenvolvimento, suprimindo os sintomas -15% do progresso da doença (o prazo de validade está quase expirado).</primitivepillsPlague.description>
+  <primitivepillsPlague.ingestible.ingestCommandString>Bebida {0}</primitivepillsPlague.ingestible.ingestCommandString>
+  <primitivepillsPlague.ingestible.ingestReportString>Bebidas {0}.</primitivepillsPlague.ingestible.ingestReportString>
+
+  <primitivepillsSleepingSickness.label>Poção para doença do sono</primitivepillsSleepingSickness.label>
+  <primitivepillsSleepingSickness.description>A poção para a doença do sono não elimina a influência do vírus, mas retarda significativamente o seu desenvolvimento, suprimindo os sintomas em -15% do progresso da doença (cafeína e adrenalina, definitivamente não vão deixar você dormir)</primitivepillsSleepingSickness.description>
+  <primitivepillsSleepingSickness.ingestible.ingestCommandString>Bebida {0}</primitivepillsSleepingSickness.ingestible.ingestCommandString>
+  <primitivepillsSleepingSickness.ingestible.ingestReportString>Bebidas {0}.</primitivepillsSleepingSickness.ingestible.ingestReportString>
+
+  <primitivepillsCoronavirus.label>Poção Coronavírus</primitivepillsCoronavirus.label>
+  <primitivepillsCoronavirus.description>A poção para o Coronavírus não elimina a influência do vírus, mas atrasa significativamente o seu desenvolvimento, suprimindo os sintomas -15% do progresso da doença (Contém até 10% de nanobots).</primitivepillsCoronavirus.description>
+  <primitivepillsCoronavirus.ingestible.ingestCommandString>Bebida {0}</primitivepillsCoronavirus.ingestible.ingestCommandString>
+  <primitivepillsCoronavirus.ingestible.ingestReportString>Bebidas {0}.</primitivepillsCoronavirus.ingestible.ingestReportString>
+
+  <primitivepillsEbola.label>Poção Ebola</primitivepillsEbola.label>
+  <primitivepillsEbola.description>A poção do Ebola não elimina a influência do vírus, mas atrasa significativamente o seu desenvolvimento ao suprimir os sintomas - 15% do progresso da doença (onde você descobriu isso?).</primitivepillsEbola.description>
+  <primitivepillsEbola.ingestible.ingestCommandString>Bebida {0}</primitivepillsEbola.ingestible.ingestCommandString>
+  <primitivepillsEbola.ingestible.ingestReportString>Bebidas {0}.</primitivepillsEbola.ingestible.ingestReportString>
+
+  <primitivepillsMeasles.label>Poção de Corey</primitivepillsMeasles.label>
+  <primitivepillsMeasles.description>A poção para o Sarampo não elimina a influência do vírus, mas retarda significativamente o seu desenvolvimento, suprimindo os sintomas em -15% do progresso da doença (isso tem tratamento, certo?).</primitivepillsMeasles.description>
+  <primitivepillsMeasles.ingestible.ingestCommandString>Bebida {0}</primitivepillsMeasles.ingestible.ingestCommandString>
+  <primitivepillsMeasles.ingestible.ingestReportString>Bebidas {0}.</primitivepillsMeasles.ingestible.ingestReportString>
+
+  <primitivepillsPneumonia.label>Poção para Pneumonia</primitivepillsPneumonia.label>
+  <primitivepillsPneumonia.description>A poção para Pneumonia não elimina a influência do vírus, mas atrasa significativamente o seu desenvolvimento, suprimindo os sintomas em -15% do progresso da doença (é seguro, certo?).</primitivepillsPneumonia.description>
+  <primitivepillsPneumonia.ingestible.ingestCommandString>Bebida {0}</primitivepillsPneumonia.ingestible.ingestCommandString>
+  <primitivepillsPneumonia.ingestible.ingestReportString>Bebidas {0}.</primitivepillsPneumonia.ingestible.ingestReportString>
+
+
+</LanguageData>
