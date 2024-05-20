@@ -1103,23 +1103,23 @@
 <HediffDef>
 		<hediffClass>HediffWithComps</hediffClass>
 		<defName>Hediff_Death_X</defName>
-		<label>отказ органов от передозировки</label>
-		<labelNoun>отказ органов от передозировки</labelNoun>
-		<description>отказ органов</description>
-		<defaultLabelColor>(0,242,242)</defaultLabelColor>
+		<label>☠</label>
+		<labelNoun>☠</labelNoun>
+		<description>Концентрация токсинов</description>
+		<defaultLabelColor>(242,242,242)</defaultLabelColor>
 		<minSeverity>0</minSeverity>
 		<maxSeverity>1.01</maxSeverity>
 		<lethalSeverity>1.01</lethalSeverity>
 			<comps>
 				<li Class="HediffCompProperties_SeverityPerDay">
 					<severityPerDay>-0.1</severityPerDay>
-					<showHoursToRecover>true</showHoursToRecover>
+					<showDaysToRecover>true</showDaysToRecover>
 				</li>
 			</comps>
 		<stages>
 			<li>
-				<label>изначально-скрытый</label>
-				<becomeVisible>false</becomeVisible>
+				<label>☣</label>
+				<becomeVisible>true</becomeVisible>
 			</li>
 		</stages>
 	</HediffDef>
